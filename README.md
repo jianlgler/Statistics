@@ -7,7 +7,8 @@
 
 # Statistics Weekly HW
 
-## HW_1
+<details id=1>
+<Summary><h1> HW_1</h2></summary>
 
 * Research
 1. Definition of statistics
@@ -22,3 +23,4 @@
 1. Main differences between C# and VB.net
 
 [Link]()
+</details>
