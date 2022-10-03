@@ -1,14 +1,6 @@
-<!--
-  <<< Author notes: Header of the course >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses Creative Commons Attribution 4.0 International.
--->
-
 # Statistics Weekly HW
 
-<details id=1>
-<Summary><h1> HW_1</h2></summary>
+## HW_1
 
 * Research
 1. Definition of statistics
@@ -23,4 +15,4 @@
 1. Main differences between C# and VB.net
 
 [Link]()
-</details>
+
