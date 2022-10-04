@@ -13,7 +13,7 @@ For example an introductory statistics course will generally include computation
 
 Most data analysis techniques do have theoretical justifications, which were generally developed after the techniques has been discovered empirically and were in wide practice, and often there are multiple theoretical justifications for the same technique. So someone might claim that the field of statistics is pure mathematics. 
 
-[Aaron Brown, MBA in Finance & Statistics (academic discipline), The University of Chicago Booth School of Business ] (https://qr.ae/pveYYf) 
+We can conclude by saying that there are different opinions on this topic and so finding a correct answer might be difficoult.
 
 [^1]: Wikipedia, Statistics: (https://en.wikipedia.org/wiki/Statistics)
 [^2]: Wikipedia, Statistical population: (https://en.wikipedia.org/wiki/Statistical_population)
