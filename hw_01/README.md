@@ -1,4 +1,4 @@
-#What is Statistics?
+# What is Statistics?
 According to Wikipedia, [https://en.wikipedia.org/wiki/Statistics], Statistics is the discipline that concerns the collection, organization, snalisys, interpretation and presentation of data.
 
 In applying statistics to a scientific, industrial or social problem, it is ocnventional to begin with a statistical population [https://en.wikipedia.org/wiki/Statistical_population] or a statistical model [https://en.wikipedia.org/wiki/Statistical_model] to be studied. 
