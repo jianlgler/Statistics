@@ -21,3 +21,6 @@ We can conclude by saying that there are different opinions on this topic and so
 [^4]: Quora, is statistics a science: https://www.quora.com/Is-statistics-a-science
 [^5]: Wilson, E.O. (1999). "Consilience: The Unity of Knowledge": https://www.wtf.tw/ref/wilson.pdf
 [^6]: Aaron Brown, MBA in Finance & Statistics (academic discipline), The University of Chicago Booth School of Business: https://qr.ae/pveYYf)
+
+
+# What is a dataset? From the observation units to the dataset attributes and values
