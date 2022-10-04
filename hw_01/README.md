@@ -55,3 +55,6 @@ Also, the unit of observation should not be confused with the unit of analysis. 
 [^12]: Wikipedia, Statistical unit: https://en.wikipedia.org/wiki/Statistical_unit
 [^13]: Wikipedia, Unit of observation: https://en.wikipedia.org/wiki/Unit_of_observation
 [^14]: Blalock, Hubert M., Jr. (1972), Social Statistics: https://archive.org/details/socialstatistic000blal
+
+## Statistical Population
+
