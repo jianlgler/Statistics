@@ -58,3 +58,11 @@ Also, the unit of observation should not be confused with the unit of analysis. 
 
 ## Statistical Population
 
+In statistics, a population is a set of similar items or events which is of interest for some question or experiment. A statistical population can be a group of existing objects (e.g. the set of all stars within the Milky Way galaxy) or a hypothetical and potentially infinite group of objects conceived as a generalization from experience (e.g. the set of all possible hands in a game of poker)[^15]. A common aim of statistical analysis is to produce information about some chosen population.[^16]
+
+In statistical inference, a subset of the population (a statistical sample) is chosen to represent the population in a statistical analysis.[4] Moreover, the statistical sample must be unbiased and accurately model the population (every unit of the population has an equal chance of selection). The ratio of the size of this statistical sample to the size of the population is called a sampling fraction. It is then possible to estimate the population parameters using the appropriate sample statistics.
+
+[^15]: Weisstein, Eric W, "Statistical population": https://mathworld.wolfram.com/Population.html
+[^16]: Wikipedia, Statistical Population: https://en.wikipedia.org/wiki/Statistical_population
+[^17]:
+[^18]:
