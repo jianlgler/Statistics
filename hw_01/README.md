@@ -24,3 +24,13 @@ We can conclude by saying that there are different opinions on this topic and so
 
 
 # What is a dataset? From the observation units to the dataset attributes and values
+
+The Latin word data is the plural of 'datum', "(thing) given," neuter past participle of dare "to give"[^7][^8].
+
+[^7]: Wikipedia, Dataset: https://en.wikipedia.org/wiki/Data_set
+[^8]: data | Origin and meaning of data by Online Etymology Dictionary: https://www.etymonline.com/word/data
+[^9]:
+[^10]:
+[^11]:
+[^12]:
+[^13]:
