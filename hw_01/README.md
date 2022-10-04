@@ -20,12 +20,16 @@ We can conclude by saying that there are different opinions on this topic and so
 [^3]: Wikipedia, Statistical model: https://en.wikipedia.org/wiki/Statistical_model
 [^4]: Quora, is statistics a science: https://www.quora.com/Is-statistics-a-science
 [^5]: Wilson, E.O. (1999). "Consilience: The Unity of Knowledge": https://www.wtf.tw/ref/wilson.pdf
-[^6]: Aaron Brown, MBA in Finance & Statistics (academic discipline), The University of Chicago Booth School of Business: https://qr.ae/pveYYf)
+[^6]: Aaron Brown, MBA in Finance & Statistics (academic discipline), The University of Chicago Booth School of Business: https://qr.ae/pveYYf
 
 
 # What is a dataset? From the observation units to the dataset attributes and values
 
 The Latin word data is the plural of 'datum', "(thing) given," neuter past participle of dare "to give"[^7][^8].
+
+So data is a collection of discrete values that convey information, describing quantity, quality, fact, statistics, other basic units of meaning, or simply sequences of symbols that may be further interpreted. A datum is an individual state in a set of data. Data usually is organized into structures such as tables that provide additional context and meaning, and which may themselves be used as data in larger structures. They may be used as variables in a computational process, or represent abstract ideas or concrete measurements. Data is commonly used in scientific research, finance, and in virtually every other form of human organizational activity. Examples of data sets include stock prices, crime rates, unemployment rates, literacy rates, and census data[^7].
+
+Data, as a general concept, refers to the fact that some existing information or knowledge is represented or coded in some form suitable for better usage or processing and is the smallest units of factual information that can be used as a basis for calculation, reasoning, or discussion. Data can range from abstract ideas to concrete measurements, including but not limited to, statistics. Thematically connected data presented in some relevant context can be viewed as information[^7]. 
 
 [^7]: Wikipedia, Dataset: https://en.wikipedia.org/wiki/Data_set
 [^8]: data | Origin and meaning of data by Online Etymology Dictionary: https://www.etymonline.com/word/data
