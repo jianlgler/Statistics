@@ -68,7 +68,20 @@ In statistics, sampling is the selection of a subset (a statistical sample) of i
 
 Each observation measures one or more properties (such as weight, location, colour or mass) of independent objects or individuals.
 
+## Variables and Attributes
+
+In science and research, an attribute is a quality of an object (person, thing, etc.)[^18]. Attributes are closely related to variables. A variable is a logical set of attributes.[1] Variables can "vary" – for example, be high or low.[^18] How high, or how low, is determined by the value of the attribute (and in fact, an attribute could be just the word "low" or "high")[^19].
+
+While an attribute is often intuitive, the variable is the operationalized way in which the attribute is represented for further data processing. In data processing data are often represented by a combination of items (objects organized in rows), and multiple variables (organized in columns)[^19].
+
+Variables can be classified as qualitative (aka, categorical) or quantitative (aka, numeric).
+
+- Qualitative. The value of a qualitative variable is a name or a label. The color of a ball (e.g., red, green, blue) or the breed of a dog (e.g., collie, shepherd, terrier) would be examples of qualitative or categorical variables.
+- Quantitative. The value of a quantitative variable is a number. For example, when we speak of the population of a city, we are talking about the number of people in the city - a numerical attribute of the city. Therefore, population would be a quantitative variable.
+In algebraic equations, quantitative variables are represented by symbols (e.g., x, y, or z).
+
 [^15]: Weisstein, Eric W, "Statistical population": https://mathworld.wolfram.com/Population.html
 [^16]: Wikipedia, Statistical Population: https://en.wikipedia.org/wiki/Statistical_population
 [^17]: Wikipedia, Sampling (Statistics): https://en.wikipedia.org/wiki/Sampling_(statistics)
-[^18]:
+[^18]: Earl R. Babbie, The Practice of Social Research, 12th edition, Wadsworth Publishing, 2009: https://en.wikipedia.org/wiki/Earl_Babbie
+[^19]: Wikipedia, Variable and Attribute: https://en.wikipedia.org/wiki/Variable_and_attribute_(research)
