@@ -31,7 +31,7 @@ So data is a collection of discrete values that convey information, describin
 
 Data, as a general concept, refers to the fact that some existing information or knowledge is represented or coded in some form suitable for better usage or processing and is the smallest units of factual information that can be used as a basis for calculation, reasoning, or discussion. Data can range from abstract ideas to concrete measurements, including but not limited to, statistics. Thematically connected data presented in some relevant context can be viewed as information[^7]. 
 
-Ok so a dataset is a collection of data: it can corresponds to one or more database tables, or any other collection of documents or files.
+Ok so a dataset is a collection of data: it can corresponds to one or more database tables, or any other collection of documents or files[^10].
 
 
 [^7]: Wikipedia, Dataset: https://en.wikipedia.org/wiki/Data_set
