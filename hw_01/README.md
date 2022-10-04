@@ -62,7 +62,13 @@ In statistics, a population is a set of similar items or events which is of inte
 
 In statistical inference, a subset of the population (a statistical sample) is chosen to represent the population in a statistical analysis. Moreover, the statistical sample must be unbiased and accurately model the population (every unit of the population has an equal chance of selection). The ratio of the size of this statistical sample to the size of the population is called a sampling fraction. It is then possible to estimate the population parameters using the appropriate sample statistics[^16].
 
+## What is a sample?
+
+In statistics, sampling is the selection of a subset (a statistical sample) of individuals from within a statistical population to estimate characteristics of the whole population. Statisticians attempt to collect samples that are representative of the population in question. Sampling has lower costs and faster data collection than measuring the entire population and can provide insights in cases where it is infeasible to measure an entire population[^17].
+
+Each observation measures one or more properties (such as weight, location, colour or mass) of independent objects or individuals.
+
 [^15]: Weisstein, Eric W, "Statistical population": https://mathworld.wolfram.com/Population.html
 [^16]: Wikipedia, Statistical Population: https://en.wikipedia.org/wiki/Statistical_population
-[^17]:
+[^17]: Wikipedia, Sampling (Statistics): https://en.wikipedia.org/wiki/Sampling_(statistics)
 [^18]:
