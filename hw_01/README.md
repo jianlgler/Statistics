@@ -44,9 +44,9 @@ Ok so a dataset is a collection of data: it can corresponds to one or more datab
 In statistics, a unit is one member of a set of entities being studied. It is the main source for the mathematical abstraction of a "random variable". Common examples of a unit would be a single person, animal, plant, manufactured item, or country that belongs to a larger collection of such entities being studied[^12]. 
 Units are often referred to as being either experimental units and sampling units (or unit of observation):
 
--An "experimental unit" is typically thought of as one member of a set of objects that are initially equal, with each object then subjected to one of several experimental treatments. Put simply, it is the smallest entity to which a treatment is applied.
+- An "experimental unit" is typically thought of as one member of a set of objects that are initially equal, with each object then subjected to one of several experimental treatments. Put simply, it is the smallest entity to which a treatment is applied.
 
--A "sampling unit" is typically thought of as an object that has been sampled from a statistical population. This term is commonly used in opinion polling and survey sampling.
+- A "sampling unit" is typically thought of as an object that has been sampled from a statistical population. This term is commonly used in opinion polling and survey sampling.
 
 For example, in an experiment on educational methods, methods may be applied to classrooms of students. This would make the classroom as the experimental unit. Measurements of progress may be obtained from individual students, as observational units. But the treatment (teaching method) being applied to the class would not be applied independently to the individual students. Hence the student could not be regarded as the experimental unit. The class, or the teacher by method combination if the teacher had multiple classes, would be the appropriate experimental unit[^12].
 
