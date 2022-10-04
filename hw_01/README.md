@@ -50,5 +50,8 @@ Units are often referred to as being either experimental units and sampling unit
 
 For example, in an experiment on educational methods, methods may be applied to classrooms of students. This would make the classroom as the experimental unit. Measurements of progress may be obtained from individual students, as observational units. But the treatment (teaching method) being applied to the class would not be applied independently to the individual students. Hence the student could not be regarded as the experimental unit. The class, or the teacher by method combination if the teacher had multiple classes, would be the appropriate experimental unit[^12].
 
+Also, the unit of observation should not be confused with the unit of analysis. A study may have a differing unit of observation and unit of analysis: for example, in community research, the research design may collect data at the individual level of observation but the level of analysis might be at the neighborhood level, drawing conclusions on neighborhood characteristics from data collected from individuals. Together, the unit of observation and the level of analysis define the population of a research enterprise[^13][^14].
+
 [^12]: Wikipedia, Statistical unit: https://en.wikipedia.org/wiki/Statistical_unit
-[^13]:
+[^13]: Wikipedia, Unit of observation: https://en.wikipedia.org/wiki/Unit_of_observation
+[^14]: Blalock, Hubert M., Jr. (1972), Social Statistics: https://archive.org/details/socialstatistic000blal
