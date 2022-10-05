@@ -15,5 +15,10 @@
 1. Main differences between C# and VB.net
 
 - [Theory Link](https://jianlgler.github.io/Statistics/hw_01/) 
+
+### Video Demo
+
+https://user-images.githubusercontent.com/74598295/194109293-952c9289-2188-4d06-a06e-ba88ab8b1166.mp4
+
 - [Code Link](https://drive.google.com/file/d/1JyjVcgDDSbl1kLRZaD_SoKOGUv6mwd_9/view?usp=sharing)
 
