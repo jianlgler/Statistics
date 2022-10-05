@@ -102,5 +102,15 @@ A stronger and robust cyber defense posture enables organizations to get a more 
 
 Throughout the years, numerous studies on cyber hacking forecasts via data management have been conducted, with numerous resolution solutions presented[^22].
 
+## Examples
+
+1) Fraud Detection: Big data analytics plays a tremendous role in fraud detection[^22] 
+2) Statistics is used to measure Cybersecurity Risk Decisions[^24]: cyber risk represent the probability of a vulnerability being exploited[^25]
+
+
+
+
 [^22]: Ksolves, "5 best application of big data analytics in cyber security industry": https://www.ksolves.com/blog/big-data/5-best-applications-of-big-data-analytics-in-cyber-security-industry
 [^23]: Analytics Steps, Big Data Analytics in Cybersecurity: https://www.analyticssteps.com/blogs/big-data-analytics-cybersecurity-role-and-applications
+[^24]: Teri Radichel, Cloud Security Training and Penetration Testing, Automating Cybersecurity Metrics, "Should We Apply Statistics to Cybersecurity Risk Decision": https://medium.com/cloud-security/automating-cybersecurity-metrics-890dfabb6198
+[^25]: Reciprocity, The Statistical Analysis of Measuring Cybersecurity Risk: https://reciprocity.com/blog/the-statistical-analysis-of-measuring-cybersecurity-risk/
