@@ -126,7 +126,7 @@ Throughout the years, numerous studies on cyber hacking forecasts via data manag
 Here we can observe the same code written first in C#, then in VB.NET
 
 C#
-'''
+```
 private void button3_Click(object sender, EventArgs e)
 {
   progressBar1.Show();
@@ -139,8 +139,7 @@ private void button3_Click(object sender, EventArgs e)
   button2.Enabled=true;   
   button4.Enabled = true;
 }
-
-'''
+```
 
 | VB.NET  | C# |
 | ------------- | ------------- |
