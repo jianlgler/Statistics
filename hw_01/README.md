@@ -141,6 +141,32 @@ private void button3_Click(object sender, EventArgs e)
 }
 ```
 
+VB.NET
+```
+Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+  ProgressBar1.Show()
+  ProgressBar1.Increment(20)
+  If ProgressBar1.Value = ProgressBar1.Maximum Then
+     Button1.Enabled = False
+     Button3.Enabled = False
+  End If
+  Button2.Enabled = True
+  Button4.Enabled = True
+End Sub
+```
+Declaration:
+
+C# 
+```
+int x;
+int x = 10;
+```
+VB.NET
+```
+Dim x As Integer
+Public x As Integer = 10
+```
+
 | VB.NET  | C# |
 | ------------- | ------------- |
 | VB.NET uses simple English in its syntax | C# uses C-based syntax |
