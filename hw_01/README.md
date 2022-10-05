@@ -20,7 +20,7 @@ We can conclude by saying that there are different opinions on this topic and so
 [^3]: Wikipedia, Statistical model: https://en.wikipedia.org/wiki/Statistical_model
 [^4]: Quora, is statistics a science: https://www.quora.com/Is-statistics-a-science
 [^5]: Wilson, E.O. (1999). "Consilience: The Unity of Knowledge": https://www.wtf.tw/ref/wilson.pdf
-[^6]: Aaron Brown, MBA in Finance & Statistics (academic discipline), The University of Chicago Booth School of Business: https://qr.ae/pveYYf
+[^6]: Quora, Aaron Brown, MBA in Finance & Statistics (academic discipline), The University of Chicago Booth School of Business: https://qr.ae/pveYYf
 
 
 # What is a dataset? From the observation units to the dataset attributes and values
@@ -74,14 +74,20 @@ In science and research, an attribute is a quality of an object (person, thing, 
 
 While an attribute is often intuitive, the variable is the operationalized way in which the attribute is represented for further data processing. In data processing data are often represented by a combination of items (objects organized in rows), and multiple variables (organized in columns)[^19].
 
-Variables can be classified as qualitative (aka, categorical) or quantitative (aka, numeric).
+Variables can be classified as qualitative or quantitative.
 
-- Qualitative. The value of a qualitative variable is a name or a label. The color of a ball (e.g., red, green, blue) or the breed of a dog (e.g., collie, shepherd, terrier) would be examples of qualitative or categorical variables.
+- Qualitative. The value of a qualitative variable is a name or a label. The color of a ball (e.g., red, green, blue) or the breed of a dog (e.g., collie, shepherd, terrier) would be examples of qualitative or categorical variables[^20].
 - Quantitative. The value of a quantitative variable is a number. For example, when we speak of the population of a city, we are talking about the number of people in the city - a numerical attribute of the city. Therefore, population would be a quantitative variable.
-In algebraic equations, quantitative variables are represented by symbols (e.g., x, y, or z).
+
+In algebraic equations, quantitative variables are represented by symbols (e.g., x, y, or z)[^20].
+
+Random variables can be either observed or expected: for example if we flip a coin N times, we would expect a result about 50 heads and 50 tails, but it might happen to obtain something like 70-30. First ones are expected values and seconds are observed values.   
+In conclusion, we can say that observed variables are obtained by performing the experiment and recording (observing) the individual values of the random variable in question[^21].
 
 [^15]: Weisstein, Eric W, "Statistical population": https://mathworld.wolfram.com/Population.html
 [^16]: Wikipedia, Statistical Population: https://en.wikipedia.org/wiki/Statistical_population
 [^17]: Wikipedia, Sampling (Statistics): https://en.wikipedia.org/wiki/Sampling_(statistics)
 [^18]: Earl R. Babbie, The Practice of Social Research, 12th edition, Wadsworth Publishing, 2009: https://en.wikipedia.org/wiki/Earl_Babbie
 [^19]: Wikipedia, Variable and Attribute: https://en.wikipedia.org/wiki/Variable_and_attribute_(research)
+[^20]: Berman H.B., "Variables in Statistics": https://stattrek.com/descriptive-statistics/variables 
+[^21]: Quora, Alex Sadovsky, Studied Mathematics & Biomechanics at University of California, Irvine: https://www.quora.com/What-are-observed-and-expected-values
