@@ -93,3 +93,9 @@ In conclusion, we can say that observed variables are obtained by performing the
 [^21]: Quora, Alex Sadovsky, Studied Mathematics & Biomechanics at University of California, Irvine: https://www.quora.com/What-are-observed-and-expected-values
 
 # Application of Statistics in Cybersecurity
+
+Cyber security analysis relies heavily on big data analytics. It allows us to better analyze and predict cyber hacking based on our awareness of the dangerous state of affairs. Big data analytics, which employs both qualitative and quantitative methodologies, aids in the extension of productivity and enterprise gain[^22].
+
+Throughout the years, numerous studies on cyber hacking forecasts via data management have been conducted, with numerous resolution solutions presented[^22].
+
+[^22]: Ksolves, "5 best application of big data analytics in cyber security industry": https://www.ksolves.com/blog/big-data/5-best-applications-of-big-data-analytics-in-cyber-security-industry
