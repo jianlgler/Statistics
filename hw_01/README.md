@@ -123,6 +123,25 @@ Throughout the years, numerous studies on cyber hacking forecasts via data manag
 
 # Main differences between C# and VB.NET 
 
+Here we can observe the same code written first in C#, then in VB.NET
+
+C#
+'''
+private void button3_Click(object sender, EventArgs e)
+{
+  progressBar1.Show();
+  progressBar1.Increment(20);
+  if (progressBar1.Value == progressBar1.Maximum)
+  {
+    button1.Enabled = false;
+    button3.Enabled = false;  
+  }
+  button2.Enabled=true;   
+  button4.Enabled = true;
+}
+
+'''
+
 | VB.NET  | C# |
 | ------------- | ------------- |
 | VB.NET uses simple English in its syntax | C# uses C-based syntax |
