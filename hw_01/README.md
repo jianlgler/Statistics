@@ -91,3 +91,5 @@ In conclusion, we can say that observed variables are obtained by performing the
 [^19]: Wikipedia, Variable and Attribute: https://en.wikipedia.org/wiki/Variable_and_attribute_(research)
 [^20]: Berman H.B., "Variables in Statistics": https://stattrek.com/descriptive-statistics/variables 
 [^21]: Quora, Alex Sadovsky, Studied Mathematics & Biomechanics at University of California, Irvine: https://www.quora.com/What-are-observed-and-expected-values
+
+# Application of Statistics in Cybersecurity
