@@ -106,11 +106,17 @@ Throughout the years, numerous studies on cyber hacking forecasts via data manag
 
 1) Fraud Detection: Big data analytics plays a tremendous role in fraud detection[^22] 
 2) Statistics is used to measure Cybersecurity Risk Decisions[^24]: cyber risk represent the probability of a vulnerability being exploited[^25]
+3) Security Research and Threat Intelligence[^22]: by employing scalable parallel processing big data analytics in cyber security, monitoring systems can begin engaging deeper and cutting-edge packet inspection and log analysis tools. 
+4) Visual big data analytics in cyber security is also useful in offering a network security administrator extensive network visibility[^22]. Furthermore, it can highlight areas that deviate from the norm and allow for easy drill-down functionality to aid in the faster detection of risks. It could also detect covert tactics by detecting a large number of tiny deviations from the same user or device, weaving them together, and marking them as a whole.
+5) Clustering and Classification[^23]: individuate patterns among large groups of data can be easily clustered by cyber security professionals and data scientists by utilizing big data analytics. Artificial intelligence (AI) has the potential to boost detection rates by up to 95 percent[^26]. Optimal choice is to use a blend of artificial intelligence and traditional methods. This combination of traditional and new technologies has the potential to boost detection rates by up to 100%, reducing false positives[^26].
 
+ 
 
+ Artificial intelligence can also improve danger hunting by combining behavior analysis. By evaluating data from endpoints, you may create profiles for each application inside your company's network.
 
 
 [^22]: Ksolves, "5 best application of big data analytics in cyber security industry": https://www.ksolves.com/blog/big-data/5-best-applications-of-big-data-analytics-in-cyber-security-industry
-[^23]: Analytics Steps, Big Data Analytics in Cybersecurity: https://www.analyticssteps.com/blogs/big-data-analytics-cybersecurity-role-and-applications
+[^23]: Analytics Steps, "Big Data Analytics in Cybersecurity: Role and Applications": https://www.analyticssteps.com/blogs/big-data-analytics-cybersecurity-role-and-applications
 [^24]: Teri Radichel, Cloud Security Training and Penetration Testing, Automating Cybersecurity Metrics, "Should We Apply Statistics to Cybersecurity Risk Decision": https://medium.com/cloud-security/automating-cybersecurity-metrics-890dfabb6198
 [^25]: Reciprocity, The Statistical Analysis of Measuring Cybersecurity Risk: https://reciprocity.com/blog/the-statistical-analysis-of-measuring-cybersecurity-risk/
+[^26]: Analytics Steps, "How Artificial Intelligence Can Combat Cybercrime?": https://www.analyticssteps.com/blogs/how-artificial-intelligence-can-combat-cybercrime
