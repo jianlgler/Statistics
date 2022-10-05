@@ -19,6 +19,7 @@
 ### Video Demo
 
 https://user-images.githubusercontent.com/74598295/194109293-952c9289-2188-4d06-a06e-ba88ab8b1166.mp4
-<iframe width="1487" height="691" src="https://user-images.githubusercontent.com/74598295/194109293-952c9289-2188-4d06-a06e-ba88ab8b1166.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1487" height="691" src="https://user-images.githubusercontent.com/74598295/194109293-952c9289-2188-4d06-a06e-ba88ab8b1166.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
 - [Code Link](https://drive.google.com/file/d/1JyjVcgDDSbl1kLRZaD_SoKOGUv6mwd_9/view?usp=sharing)
 
