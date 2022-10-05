@@ -14,5 +14,5 @@
 * Research on App
 1. Main differences between C# and VB.net
 
-[Link](https://jianlgler.github.io/hw_01/)
+[Link](https://jianlgler.github.io/Statistics/hw_01/)
 
