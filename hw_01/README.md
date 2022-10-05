@@ -120,3 +120,14 @@ Throughout the years, numerous studies on cyber hacking forecasts via data manag
 [^24]: Teri Radichel, Cloud Security Training and Penetration Testing, Automating Cybersecurity Metrics, "Should We Apply Statistics to Cybersecurity Risk Decision": https://medium.com/cloud-security/automating-cybersecurity-metrics-890dfabb6198
 [^25]: Reciprocity, The Statistical Analysis of Measuring Cybersecurity Risk: https://reciprocity.com/blog/the-statistical-analysis-of-measuring-cybersecurity-risk/
 [^26]: Analytics Steps, "How Artificial Intelligence Can Combat Cybercrime?": https://www.analyticssteps.com/blogs/how-artificial-intelligence-can-combat-cybercrime
+
+# Main differences between C# and VB.NET 
+
+| VB.NET  | C# |
+| ------------- | ------------- |
+| VB.NET uses simple English in its syntax | C# uses C-based syntax |
+| VB.NET is not a case-sensitive language | C# is a case-sensitive language |
+| It supports structured and unstructured error handling | It supports structured error handling |
+| Event handling is simpler | Event handling is a bit complex in contrast to VB.NET |
+| Each statement ends with a semicolon | Each statement does not terminate with a semicolon |
+| It is easy to write VB.NET code with the use of implicit casting | There is a need for a lot of casting and conversion to write the same lines of code in C# |
