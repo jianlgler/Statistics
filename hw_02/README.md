@@ -10,4 +10,4 @@ probability that a given value will occur is called the probability density func
 
 Formally, a distribution can be defined as a normalized measure, and the distribution of a random variable x is the measure P_x on S^' defined by setting 
     
-    <img src="https://mathworld.wolfram.com/images/equations/StatisticalDistribution/NumberedEquation1.svg" width=20% height=20%>
+   <img src="https://mathworld.wolfram.com/images/equations/StatisticalDistribution/NumberedEquation1.svg" width=20% height=20%>
