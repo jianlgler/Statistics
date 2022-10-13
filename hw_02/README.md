@@ -28,3 +28,10 @@ Examples of commonly applied continuous univariate distributions[^6] include the
 [^4]: Wimmer G, Altmann G (1999) Thesaurus of univariate discrete probability distributions
 [^5]: Johnson, N.L., Kemp, A.W., and Kotz, S. (2005) Discrete Univariate Distributions
 [^6]: Johnson N.L., Kotz S, Balakrishnan N. (1994) Continuous Univariate Distributions Vol 1. Wiley Series in Probability and Statistics
+
+## Multivariate Distribution
+
+Multivariate distributions show comparisons between two or more measurements and the relationships among them. For each univariate distribution with one random variable, there is a more general multivariate distribution. For example, the normal distribution is univariate and its more general counterpart is the multivariate normal distribution. While the multivariate normal model is the most commonly used model for analyzing multivariate data [^7], there are many more: the multivariate lognormal distribution, the multivariate binomial distribution, and so on.
+A bivariate distribution is the simplest multivariate distribution, comprised of one pair of random variables. However, theoretically at least, you could have an infinite number of pairs; all results from a bivariate distribution for two pairs can be generalized to n random variables.
+
+[^7]: Engineering Statistics Handbook: The Multivariate Normal Distribution. Retrieved November 11, 2021 from: https://www.itl.nist.gov/div898/handbook/pmc/section5/pmc542.htm
