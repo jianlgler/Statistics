@@ -22,3 +22,16 @@
 </iframe>
 - [Code Link](https://drive.google.com/file/d/1JyjVcgDDSbl1kLRZaD_SoKOGUv6mwd_9/view?usp=sharing)
 
+
+## HW_2
+
+* Research
+1. Definition of distribution
+
+* Application
+1. Make a simple demo program which uses the objects RANDOM and TIMER in C# and VB.NET
+2. Make a simple CSV parser that can ead a CSV file
+3. Compute a univariate distribution of a variable after reading a variable from a CSV file
+
+* Research on App
+1. Summarize the main aspects of the CSV protocol RFC 4180 (definition and rules)
