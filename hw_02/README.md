@@ -14,3 +14,15 @@ where (S, S^, P) is a probability space, (S, S^) si a measurable space, and P a 
 
 [^1]: WolframAlpha, Statistical Distribution: https://www.wolframalpha.com/entities/mathworld/statistical_distribution/5k/4v/44/
 [^2]: Wolfram MathWorld, Statistical Distribution: https://mathworld.wolfram.com/StatisticalDistribution.html
+
+## Univariate Distribution
+
+In statistics, a univariate distribution is a probability distribution of only one random variable. This is in contrast to a multivariate distribution, the probability distribution of a random vector (consisting of multiple random variables).
+One of the simplest examples of a discrete univariate distribution is the discrete uniform distribution, where all elements of a finite set are equally likely. It is the probability model for the outcomes of tossing a fair coin, rolling a fair die, etc. The univariate continuous uniform distribution on an interval [a, b] has the property that all sub-intervals of the same length are equally likely[^3]. 
+At least 750 univariate discrete distributions have been reported in the literature[^4], examples include the binomial, geometric, negative binomial, and Poisson distributions[^5].
+Examples of commonly applied continuous univariate distributions[^6] include the normal distribution, Student's t distribution, chisquare distribution, F distribution, exponential and gamma distributions.
+
+[^3]: Wikipedia, Univariate Distribution: https://en.wikipedia.org/wiki/Univariate_distribution
+[^4]: Wimmer G, Altmann G (1999) Thesaurus of univariate discrete probability distributions
+[^5]: Johnson, N.L., Kemp, A.W., and Kotz, S. (2005) Discrete Univariate Distributions
+[^6]: Johnson N.L., Kotz S, Balakrishnan N. (1994) Continuous Univariate Distributions Vol 1. Wiley Series in Probability and Statistics
