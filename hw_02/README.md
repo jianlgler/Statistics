@@ -42,9 +42,16 @@ A conditional distribution is a distribution of values for one variable that exi
 
 In probability theory and statistics, given two jointly distributed random variables X and Y, the conditional probability distribution of Y given X is the probability distribution of Y when X is known to be a particular value. When both X and Y are categorical variables, a conditional probability table is typically used to represent the conditional probability. The conditional distribution contrasts with the marginal distribution of a random variable, which is its distribution without reference to the value of the other variable. More generally, one can refer to the conditional distribution of a subset of a set of more than two variables; this conditional distribution is contingent on the values of all the remaining variables, and if more than one variable is included in the subset then this conditional distribution is the conditional joint distribution of the included variables[^9].
 
+## Marginal Distribution
+
+In probability theory and statistics, the marginal distribution of a subset of a collection of random variables is the probability distribution of the variables contained in the subset. It gives the probabilities of various values of the variables in the subset without reference to the values of the other variables. This contrasts with a conditional distribution, which gives the probabilities contingent upon the values of the other variables.
+The distribution of the marginal variables (the marginal distribution) is obtained by marginalizing (that is, focusing on the sums in the margin) over the distribution of the variables being discarded, and the discarded variables are said to have been marginalized out.
+
+The context here is that the theoretical studies being undertaken, or the data analysis being done, involves a wider set of random variables but that attention is being limited to a reduced number of those variables. In many applications, an analysis may start with a given collection of random variables, then first extend the set by defining new ones (such as the sum of the original random variables) and finally reduce the number by placing interest in the marginal distribution of a subset (such as the sum). Several different analyses may be done, each treating a different subset of variables as the marginal variables[^10].
+
 [^8]: Conditional Distribution, Definition & Finding, Jim Frost: https://statisticsbyjim.com/basics/conditional-distribution/
 [^9]: Wikipedia, Conditional probability distribution: https://en.wikipedia.org/wiki/Conditional_probability_distribution
-[^10]:
+[^10]: Wikipedia, Marginal distribution: https://en.wikipedia.org/wiki/Marginal_distribution
 [^]:
 [^]:
 [^]:
