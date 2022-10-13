@@ -49,15 +49,14 @@ The distribution of the marginal variables (the marginal distribution) is obtain
 
 The context here is that the theoretical studies being undertaken, or the data analysis being done, involves a wider set of random variables but that attention is being limited to a reduced number of those variables. In many applications, an analysis may start with a given collection of random variables, then first extend the set by defining new ones (such as the sum of the original random variables) and finally reduce the number by placing interest in the marginal distribution of a subset (such as the sum). Several different analyses may be done, each treating a different subset of variables as the marginal variables[^10].
 
+For example: 
+  Suppose that the probability that a pedestrian will be hit by a car, while crossing the road at a pedestrian crossing, without paying attention to the traffic light, is to be computed. Let H be a discrete random variable taking one value from {Hit, Not Hit}. Let L (for traffic light) be a discrete random variable taking one value from {Red, Yellow, Green}.
+
+Realistically, H will be dependent on L. That is, P(H = Hit) will take different values depending on whether L is red, yellow or green (and likewise for P(H = Not Hit)). A person is, for example, far more likely to be hit by a car when trying to cross while the lights for perpendicular traffic are green than if they are red. In other words, for any given possible pair of values for H and L, one must consider the joint probability distribution of H and L to find the probability of that pair of events occurring together if the pedestrian ignores the state of the light.
+
+However, in trying to calculate the marginal probability P(H = Hit), what is being sought is the probability that H = Hit in the situation in which the particular value of L is unknown and in which the pedestrian ignores the state of the light. In general, a pedestrian can be hit if the lights are red OR if the lights are yellow OR if the lights are green. So, the answer for the marginal probability can be found by summing P(H | L) for all possible values of L, with each value of L weighted by its probability of occurring.
+
+
 [^8]: Conditional Distribution, Definition & Finding, Jim Frost: https://statisticsbyjim.com/basics/conditional-distribution/
 [^9]: Wikipedia, Conditional probability distribution: https://en.wikipedia.org/wiki/Conditional_probability_distribution
 [^10]: Wikipedia, Marginal distribution: https://en.wikipedia.org/wiki/Marginal_distribution
-[^]:
-[^]:
-[^]:
-[^]:
-[^]:
-[^]:
-[^]:
-[^]:
-
