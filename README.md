@@ -35,3 +35,5 @@
 
 * Research on App
 1. Summarize the main aspects of the CSV protocol RFC 4180 (definition and rules)
+
+- [Theory Link](https://jianlgler.github.io/Statistics/hw_02/)
