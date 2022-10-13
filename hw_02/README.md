@@ -40,7 +40,7 @@ A bivariate distribution is the simplest multivariate distribution, comprised of
 
 A conditional distribution is a distribution of values for one variable that exists when you specify the values of other variables. This type of distribution allows you to assess the dispersal of your variable of interest under specific conditions, hence the name[^8].
 
-In probability theory and statistics, given two jointly distributed random variables {\displaystyle X}X and {\displaystyle Y}Y, the conditional probability distribution of {\displaystyle Y}Y given {\displaystyle X}X is the probability distribution of {\displaystyle Y}Y when {\displaystyle X}X is known to be a particular value[^9]. 
+In probability theory and statistics, given two jointly distributed random variables X and Y, the conditional probability distribution of Y given X is the probability distribution of Y when X is known to be a particular value[^9]. 
 [^8]: Conditional Distribution, Definition & Finding, Jim Frost: https://statisticsbyjim.com/basics/conditional-distribution/
 [^9]: Wikipedia, Conditional probability distribution: https://en.wikipedia.org/wiki/Conditional_probability_distribution
 [^10]:
