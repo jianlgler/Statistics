@@ -35,6 +35,7 @@ Numerically:
   | N(i,j)/N(+,j) == N(i,+)/N | N(i,j)/N(i,+) == N(+,j)/N |
   |---------------------------|---------------------------|
   
-These two formulas lead to | N(i,j) x N == N(i,+) x N(+,j) |
-                           |:-----------------------------:|
+These two formulas lead to 
+  | N(i,j) x N == N(i,+) x N(+,j) |
+  |:-----------------------------:|
 
