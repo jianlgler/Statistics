@@ -34,18 +34,18 @@ So they are also equal to the marginal Freq(X_i).
 Numerically: 
 
   | N(i,j)/N(+,j) == N(i,+)/N | N(i,j)/N(i,+) == N(+,j)/N |
-  | ------------- | ------------- |
+  | -------------------------- |
   
 These two formulas lead to 
 
   | N(i,j) x N == N(i,+) x N(+,j) |
-  | ------------- | ------------- |
+  | -------------------------- |
 
 
 Multipling and dividing the last formula by N, we obtain the following identity:
 
   | Freq(X_i AND Y_j) == Freq(X_i) x Freq(Y_j)|
-  | ------------- | ------------- |
+  | -------------------------- |
   
 
 This is true if one X is independent from Y and vice versa.
