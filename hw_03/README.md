@@ -33,8 +33,8 @@ Formally: given two variable X and Y, they are indipendent if for each i, Freq(X
 So they are also equal to the marginal Freq(X_i). 
 Numerically: 
   | N(i,j)/N(+,j) == N(i,+)/N | N(i,j)/N(i,+) == N(+,j)/N |
-  
+  |---------------------------|---------------------------|
   
 These two formulas lead to | N(i,j) x N == N(i,+) x N(+,j) |
-  
+                           |-------------------------------|
 
