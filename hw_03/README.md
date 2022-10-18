@@ -1,12 +1,12 @@
 
 # HOMEWORK 03
 
-## Joint Frequency
+# Joint Frequency
 
 In a bivariate distribution, given the variables X and Y, the joint frequency represents the number of statistical units which have X_i value and Y_j value at the same time. 
 To simplify: A joint frequency is how many times a combination of two conditions happens together. For example a dog owner who is also a woman[^1].
 
-## Marginal frequency 
+# Marginal frequency 
 
 It is the ratio between the frequency of a row total or column total to the total frequency of the data. It is commonly used to analyze general trends in one specific category of data[^2].
 To simplify: A marginal frequency can be calculated by dividing a row total or a column total by the total frequency of the data[^3].
