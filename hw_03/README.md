@@ -32,9 +32,9 @@ We can transpose this definition to frequencies.
 Formally: given two variable X and Y, they are indipendent if for each i, Freq(X_i, Y_j) are equal for every j.
 So they are also equal to the marginal Freq(X_i). 
 Numerically: 
-
-  | N_i_j/N_+_j == N_i_+/N | N_i_j/N_i_+ == N_+_j/N |
+  | N(i,j)/N(+,j) == N(i,+)/N | N(i,j)/N(i,+) == N(+,j)/N |
   
-These two formulas lead to | N_i_j x N == N_i_+ x N_+_j |
+  
+These two formulas lead to | N(i,j) x N == N(i,+) x N(+,j) |
   
 
