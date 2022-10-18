@@ -41,11 +41,13 @@ These two formulas lead to
   | N(i,j) x N == N(i,+) x N(+,j) |
   | ------------- | ------------- |
 
+
 Multipling and dividing the last formula by N, we obtain the following identity:
 
   | Freq(X_i AND Y_j) == Freq(X_i) x Freq(Y_j)|
   | ------------- | ------------- |
   
+
 This is true if one X is independent from Y and vice versa.
 We can notice that in this case, Joint Frequencies are the product of the Marginal Frequencies.
   
