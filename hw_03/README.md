@@ -4,7 +4,7 @@
 # Conditional Frequency
 
 In a contingency table (sometimes called a two way frequency table), conditional frequency is a fraction that tells you how many members of a group have a particular characteristic. More technically, it is the ratio of a frequency in the center of the table to the frequency’s row total or column total[^1]. 
-To be clearer, a conditional distribution is a univariate distribution built on the costraint of a value. 
+To be clearer, a conditional distribution is a univariate distribution, composed by its frequency, built on the costraint of a value. 
 It refers to a subset of the whole population.
 
 # Joint Frequency
