@@ -16,8 +16,7 @@ Divide the number of people living an apartment by the grand total: 7/30.
 This is a joint frequency: it represents how many times a combination of two conditions happens together. The answe is 2.
 
 
-
-> Lets now skip to the definitions
+### Lets now skip to the definitions
 
 # Conditional Frequency
 
