@@ -1,6 +1,9 @@
 
 # HOMEWORK 03
 
+![alt text](https://github.com/jianlgler/Statistics/hw_03/blob/main/images/conditional-relative-frequency.png)
+
+
 # Conditional Frequency
 
 In a contingency table (sometimes called a two way frequency table), conditional frequency is a fraction that tells you how many members of a group have a particular characteristic. More technically, it is the ratio of a frequency in the center of the table to the frequency’s row total or column total[^1]. 
