@@ -1,7 +1,7 @@
 
 # HOMEWORK 03
 
-![alt text](https://github.com/jianlgler/Statistics/blob/main/hw_03/conditional-relative-frequency.png)
+![alt text](https://raw.githubusercontent.com/jianlgler/Statistics/main/hw_03/conditional-relative-frequency.png)
 
 Lets start with an example!
 The following contingency table shows the likelihood a person in a certain type of accommodation owns a pet.
