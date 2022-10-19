@@ -3,6 +3,14 @@
 
 ![alt text](https://github.com/jianlgler/Statistics/blob/main/hw_03/conditional-relative-frequency.png)
 
+The following contingency table shows the likelihood a person in a certain type of accommodation owns a pet.
+
+## What is the conditional relative frequency for owning a pet, given that the person lives in a house?
+We must take the number of people who owns a pet AND live in a house, then divide that number by the total number of people who live in houses: 2/18.
+
+
+
+> But lets skip to the definitions
 
 # Conditional Frequency
 
