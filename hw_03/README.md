@@ -144,3 +144,35 @@ def finalize(existingAggregate):
 [^7]: Wikipedia, Variance: https://en.wikipedia.org/wiki/Variance
 [^8]: https://jonisalonen.com/2013/deriving-welfords-method-for-computing-variance/
 [^9]: Algorithms for calculating variance: https://en.wikipedia.org/wiki/Algorithms_for_calculating_variance
+
+# Mean
+
+For a data set, the arithmetic mean, also known as "arithmetic average", is a measure of central tendency of a finite set of numbers: specifically, the sum of the values divided by the number of values[^10].
+
+# Knuth's algorithm:
+
+This algorithm computes the mean iteratively. This means that at each step, the value for the mean computed with the first n-1 inputs it’s updated when the input xn is received. The formula used in this algorithm is the following[^11]: ![image](https://user-images.githubusercontent.com/74598295/196745020-8b81516b-756c-4b7d-9e54-4863990ef9eb.png)
+
+This algorithm could have a loss in accuracy because of the division operation inside the loop, but provides a smart way to calculate the mean without having the whole dataset in local storage.
+A pseudo code is provided:
+```
+def online_mean(data):
+    n = 0
+    mean = M2 = 0.0
+
+    for x in data:
+        n += 1
+        delta = x - mean
+        mean += delta/n
+        delta2 = x - mean
+        M2 += delta*delta2
+
+    if n < 2:
+        return float('nan')
+    else:
+        return M2 / (n - 1)
+```
+
+
+[^10]: Wikipedia, Mean: https://en.wikipedia.org/wiki/Mean
+[^11]: Donald Knuth, "The Art Of Computer Programming”, (1998)
