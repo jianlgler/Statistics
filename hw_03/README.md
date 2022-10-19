@@ -8,7 +8,7 @@ The following contingency table shows the likelihood a person in a certain type 
 ## What is the conditional frequency for owning a pet, given that the person lives in a house?
 We must take the number of people who owns a pet AND live in a house, then divide that number by the total number of people who live in houses: 2/18.
 
-## What's the marginal frequency of 
+## What's the marginal frequency of people who live in a 
 
 > But lets skip to the definitions
 
