@@ -95,7 +95,8 @@ If we can sort the data as it appears, using Insertion Sort, we can easily locat
 
 In probability theory and statistics, variance is the expectation of the squared deviation of a random variable from its population mean or sample mean. Variance is a measure of dispersion, meaning it is a measure of how far a set of numbers is spread out from their average value, it has a central role in statistics[^7].
 
-s2=∑Ni=1(xi–x¯)2N−1,s=s2−−√
+Given a sample x1,…,xN, the standard deviation is defined as the square root of the variance:
+![image](https://user-images.githubusercontent.com/74598295/196742016-36633ce7-0378-46c3-af40-7d71265ee68f.png)
 
 [^5]: Wikipedia, Median: https://en.wikipedia.org/wiki/Median
 [^6]: Geeksforgeeks: Median in a stream of integers: https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/
