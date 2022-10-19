@@ -71,3 +71,9 @@ We can notice that in this case, Joint Frequencies are the product of the Margin
   
 The last formula, if transposed to probability terms, is a formal definition.
 
+# APPLICATION
+> A univariate distribution of protocols used among wifi's traffic
+![alt text](https://raw.githubusercontent.com/jianlgler/Statistics/main/hw_03/photo_2022-10-19_17-05-24.jpg)
+![alt text](https://raw.githubusercontent.com/jianlgler/Statistics/main/hw_03/photo_2022-10-19_17-05-49.jpg)
+![alt text](https://raw.githubusercontent.com/jianlgler/Statistics/main/hw_03/photo_2022-10-19_17-05-52.jpg)
+![alt text](https://raw.githubusercontent.com/jianlgler/Statistics/main/hw_03/photo_2022-10-19_17-05-55.jpg)
