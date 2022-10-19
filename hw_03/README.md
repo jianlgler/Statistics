@@ -80,3 +80,14 @@ The last formula, if transposed to probability terms, is a formal definition.
 ![alt text](https://raw.githubusercontent.com/jianlgler/Statistics/main/hw_03/photo_2022-10-19_17-05-49.jpg)  
 ![alt text](https://raw.githubusercontent.com/jianlgler/Statistics/main/hw_03/photo_2022-10-19_17-05-52.jpg)
 ![alt text](https://raw.githubusercontent.com/jianlgler/Statistics/main/hw_03/photo_2022-10-19_17-05-55.jpg)
+
+# Online Algorithm
+
+An online algorithm is one that can process its input piece by piece, without having the whole dataset avaible from the start. Is it a very usefull feature as it optimize resources' usage. In contrast, an offline algorithm is given the whole problem data from the beginning and is required to output an answer which solves the problem at hand. Insertion Sort is an example of online algorithm.
+
+## Median
+
+If we can sort the data as it appears, using Insertion Sort, we can easily locate the median element. Insertion Sort is one such online algorithm that sorts the data appeared so far. At any instance of sorting, say after sorting i-th element, the first i elements of the array are sorted. The insertion sort doesn’t depend on future data to sort data input till that point. In other words, insertion sort considers data sorted so far while inserting the next element. This is the key part of insertion sort that makes it an online algorithm[^5].
+
+[^5]: Geeksforgeeks: Median in a stream of integers: https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/
+
