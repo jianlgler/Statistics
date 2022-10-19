@@ -98,6 +98,49 @@ In probability theory and statistics, variance is the expectation of the squared
 Given a sample x1,…,xN, the standard deviation is defined as the square root of the variance:
 ![image](https://user-images.githubusercontent.com/74598295/196742016-36633ce7-0378-46c3-af40-7d71265ee68f.png)
 
+Welford’s method[^8] is a usable single-pass method for computing the variance. It can be derived by looking at the differences between the sums of squared differences for N and N-1 samples:
+
+  ![image](https://user-images.githubusercontent.com/74598295/196742540-63466fb9-1995-4cd1-8cd4-0d8d9dfd3bc1.png)
+
+Here is provided a pseudo code for the algorithm: 
+```
+variance(samples):
+  M := 0
+  S := 0
+  for k from 1 to N:
+    x := samples[k]
+    oldM := M
+    M := M + (x-M)/k
+    S := S + (x-M)*(x-oldM)
+  return S/(N-1)
+```
+and a Python implementation[^9]:
+```
+# For a new value newValue, compute the new count, new mean, the new M2.
+# mean accumulates the mean of the entire dataset
+# M2 aggregates the squared distance from the mean
+# count aggregates the number of samples seen so far
+def update(existingAggregate, newValue):
+    (count, mean, M2) = existingAggregate
+    count += 1
+    delta = newValue - mean
+    mean += delta / count
+    delta2 = newValue - mean
+    M2 += delta * delta2
+    return (count, mean, M2)
+
+# Retrieve the mean, variance and sample variance from an aggregate
+def finalize(existingAggregate):
+    (count, mean, M2) = existingAggregate
+    if count < 2:
+        return float("nan")
+    else:
+        (mean, variance, sampleVariance) = (mean, M2 / count, M2 / (count - 1))
+        return (mean, variance, sampleVariance)
+```
+
 [^5]: Wikipedia, Median: https://en.wikipedia.org/wiki/Median
 [^6]: Geeksforgeeks: Median in a stream of integers: https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/
-[^7] Wikipedia, Variance: https://en.wikipedia.org/wiki/Variance
+[^7]: Wikipedia, Variance: https://en.wikipedia.org/wiki/Variance
+[^8]: https://jonisalonen.com/2013/deriving-welfords-method-for-computing-variance/
+[^9]: Algorithms for calculating variance: https://en.wikipedia.org/wiki/Algorithms_for_calculating_variance
