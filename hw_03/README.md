@@ -1,7 +1,7 @@
 
 # HOMEWORK 03
 
-![alt text](https://github.com/jianlgler/Statistics/hw_03/blob/main/images/conditional-relative-frequency.png)
+![alt text](https://github.com/jianlgler/Statistics/blob/main/hw_03/conditional-relative-frequency.png)
 
 
 # Conditional Frequency
