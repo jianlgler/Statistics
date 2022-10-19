@@ -12,7 +12,12 @@ We must take the number of people who owns a pet AND live in a house, then divid
 ## What's the marginal frequency of people who live in an apartment?
 Divide the number of people living an apartment by the grand total: 7/30.
 
-> But lets skip to the definitions
+## What's the number of people who has a pet and live in a House?
+This is a joint frequency: it represents how many times a combination of two conditions happens together. The answe is 2.
+
+
+
+> Lets now skip to the definitions
 
 # Conditional Frequency
 
