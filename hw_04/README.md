@@ -20,3 +20,6 @@ This is the assumption of unit measure: that the probability that at least one o
 This is the assumpion of σ-additivity:
   Any countable sequence of disjoint sets $E_1, E_2,...$ satisfies
   $$P(\bigcup_{i=1}^{\infty}E_i)= \sum_{i=1}^{\infty} P(E_i)$$
+
+We can find parallels of these axioms in relative frequency, let define $A$ and $B$ as events: 
+1. We must notice that 
