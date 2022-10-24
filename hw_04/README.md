@@ -53,4 +53,4 @@ We indicate a probability space with a triplet (&Omega;, &epsilon;, P), where **
 
 $\Omega = \\{ T, H \\} $
 
-$\epsilon = \\{ \Omega, \emptyset , T, C, \bar{T}, \bar{C}, T \cup C, T \cap C \\} $
+$\epsilon = \\{ \Omega, \emptyset , T, H, \bar{T}, \bar{H}, T \cup H, T \cap H \\} $
