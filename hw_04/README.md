@@ -46,3 +46,5 @@ These parallels could find explaantion in the so called "frequentist definition[
 [^2]: Wikipedia, Probability: https://en.wikipedia.org/wiki/Probability
 
 # Example of a Probability Measure Space
+
+We indicate a probability space with a triplet (&Omega;, &epsilon;, P), where **&Omega;** is a sample space, **&epsilon;** a &sigma;-algebra of events and **P** is probability measure.
