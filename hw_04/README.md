@@ -52,4 +52,5 @@ We indicate a probability space with a triplet (&Omega;, &epsilon;, P), where **
 ## Think about tossing a coin: 
 
 $\Omega = \\{ T, H \\} $
+
 $\epsilon = \\{ \Omega, \emptyset , T, C, \bar{T}, \bar{C}, T \cup C, T \cap C \\} $
