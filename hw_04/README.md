@@ -13,7 +13,7 @@
 
 # Parallels between relative frequency and the axioms for probability
 
-Andrey Kolmogorov was a Russian mathematician. In 1933, he contribuited to probability theory introducing his axioms: they are known today as probability theory fundamentals by the name of Kolmogorov axioms.
+Andrey Kolmogorov was a Russian mathematician. In 1933, he contribuited to probability theory introducing his axioms: they are known today as probability theory fundamentals by the name of Kolmogorov axioms[^1].
 
 ## First Axiom
 
@@ -36,3 +36,5 @@ We can find parallels of these axioms in relative frequency, let define $A$ and 
 1. $0\leq f_A \leq 1$
 2. $f(\emptyset)=0$ and $f(Population)=1$
 3. $f_{A \cup B} = f_A + f_B - f_{A \cap B}$, where $f_{A \cap B} = 0$ if $A$ and $B$ are disjointed
+
+[^1]: Wikipedia, Probability Axioms: https://en.wikipedia.org/wiki/Probability_axioms
