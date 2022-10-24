@@ -48,3 +48,8 @@ These parallels could find explaantion in the so called "frequentist definition[
 # Example of a Probability Measure Space
 
 We indicate a probability space with a triplet (&Omega;, &epsilon;, P), where **&Omega;** is a sample space, **&epsilon;** is a &sigma;-algebra of events and **P** is probability measure. **(_Explanation for this in the next section_)**
+
+## Think about tossing a coin: 
+
+(H = Head, T = Tail)
+$\Omega = \\{ T, H \\} $
