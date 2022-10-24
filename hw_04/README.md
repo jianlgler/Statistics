@@ -57,7 +57,7 @@ $\epsilon = \\{ \Omega, \emptyset , T, H, \bar{T}, \bar{H}, T \cup H, T \cap H \
 
 ## Other examples:
 
-> positive integers: Ω = {1, 2, 3, . . . }
-> Two tosses of a coin: Ω = {HH, HT , TH, T T}
-> Reals: Ω = {n | n ∈ R}.
+• Positive integers: Ω = {1, 2, 3, . . . }
+• Two tosses of a coin: Ω = {HH, HT , TH, T T}
+• Reals: Ω = {n | n ∈ R}.
 
