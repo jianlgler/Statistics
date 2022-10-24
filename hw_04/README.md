@@ -40,7 +40,7 @@ We can find parallels of these axioms in relative frequency, let define $A$ and 
 
 
 These parallels could find explaantion in the so called "frequentist definition[^2]" of probability, which claims that the probability of a random event denotes the relative frequency of occurrence of an experiment's outcome when the experiment is repeated indefinitely. This interpretation considers probability to be the relative frequency "in the long run" of outcomes. 
-(REMEMBER: multiple definition of probability were be given throughout the time)
+(**REMEMBER**: multiple definition of probability were be given throughout the time)
 
 [^1]: Wikipedia, Probability Axioms: https://en.wikipedia.org/wiki/Probability_axioms
 [^2]: Wikipedia, Probability: https://en.wikipedia.org/wiki/Probability
