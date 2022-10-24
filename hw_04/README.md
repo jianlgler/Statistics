@@ -80,6 +80,8 @@ $$\mu (E)=\mu (E\cup \varnothing )=\mu (E)+\mu (\varnothing ),$$
 
 and therefore $\mu (\varnothing )=0$.
 
+If the condition of non-negativity is omitted but the second and third of these conditions are met, and $\mu$  takes on at most one of the values $\pm \infty$  then $\mu$  is called a signed measure.
+
 The pair $(X,\Sigma )$ is called a measurable space, and the members of $\Sigma$ are called measurable sets.
 
 A triple $(X,\Sigma ,\mu )$ is called a measure space. A probability measure is a measure with total measure one – that is, $\mu (X)=1$. A probability space is a measure space with a probability measure.
