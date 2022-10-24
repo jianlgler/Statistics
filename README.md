@@ -53,3 +53,21 @@
 2. Illustrate in particular, Knuth recursion for the computation of the arithmetic mean or average, discussion why it is preferable to the "naive" algo
 
 - [Theory Link](https://jianlgler.github.io/Statistics/hw_03/)
+
+## HW_4
+
+* Research
+1. Illustrate the parallels, between the properties of the relative frequency and the axioms for probability
+2. Discuss some concrete examples of Probability measure Space
+3. Illustrate how Measure Theory provides the mathematical foundation for Probability Theory
+
+* Application
+1. Generate a m sequences of n trials distributed according a Binomial with success probability p and represent the following quantities: absolute frequency of success, relative frequency of success, "normalized" relative frequency of success.
+2. In the same chart, add also a vertical histogram representing the distribution of the above 3 types of frequencies on the last trial.
+
+* Research on App
+1. Give a simple introduction to graphics in the .NET environment. How to create a bitmap and a chart on it.
+2. Explain in simple terms how to get device coordinates from world coordinates
+
+
+- [Theory Link](https://jianlgler.github.io/Statistics/hw_04/)
