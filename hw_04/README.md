@@ -64,7 +64,10 @@ $\epsilon = \\{ \Omega, \emptyset , T, H, \bar{T}, \bar{H}, T \cup H, T \cap H \
 # Measure Theory as Foundation of Probability Theory
 
 Probability Theory finds its foundation in Measure Theory[^3]:
-Let $X$ be a set and $\Sigma$  a $\sigma$ -algebra over $X$. A set function $\mu$  from $\Sigma$  to the extended real number line is called a measure if it satisfies the following properties:
+
+First let's introduce the concept of σ-algebra[^4]: in mathematical analysis and in probability theory, a σ-algebra on a set X is a nonempty collection Σ of subsets of X closed under complement, countable unions, and countable intersections.
+
+Let now $X$ be a set and $\Sigma$  a $\sigma$ -algebra over $X$. A set function $\mu$  from $\Sigma$  to the extended real number line is called a measure if it satisfies the following properties:
 
 **Non-negativity**: For all $E$ in $\Sigma$ , we have $\mu (E)\geq 0$.
 
@@ -87,3 +90,4 @@ The pair $(X,\Sigma )$ is called a measurable space, and the members of $\Sigma$
 A triple $(X,\Sigma ,\mu )$ is called a measure space. A probability measure is a measure with total measure one – that is, $\mu (X)=1$. A probability space is a measure space with a probability measure.
 
 [^3]: Wikipedia, Measure (Mathematics): https://en.wikipedia.org/wiki/Measure_(mathematics)
+[^4]: Wikipedia, σ-algebra: https://en.wikipedia.org/wiki/%CE%A3-algebra
