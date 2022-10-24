@@ -35,4 +35,4 @@ This is the assumpion of σ-additivity:
 We can find parallels of these axioms in relative frequency, let define $A$ and $B$ as events: 
 1. $0\leq f_A \leq 1$
 2. $f(\emptyset)=0$ and $f(Population)=1$
-3. $f_{A \cup B} = f_A + f_B $ - f_{A \cap B}$, where $f_{A \cap B} = 0$ if $A$ and $B$ are disjointed
+3. $f(A \cup B) = f_A + f_B $ - f_{A \cap B}$, where $f_{A \cap B} = 0$ if $A$ and $B$ are disjointed
