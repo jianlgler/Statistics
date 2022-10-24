@@ -51,5 +51,4 @@ We indicate a probability space with a triplet (&Omega;, &epsilon;, P), where **
 
 ## Think about tossing a coin: 
 
-(H = Head, T = Tail)
-$\Omega = \\{ T, H \\} $
+$\Omega = \\{ T, H \\} $    (Tail, Head)
