@@ -44,3 +44,5 @@ These parallels could find explaantion in the so called "frequentist definition[
 
 [^1]: Wikipedia, Probability Axioms: https://en.wikipedia.org/wiki/Probability_axioms
 [^2]: Wikipedia, Probability: https://en.wikipedia.org/wiki/Probability
+
+# Example of a Probability Measure Space
