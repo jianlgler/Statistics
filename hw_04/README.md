@@ -95,7 +95,7 @@ The requirements for a function $\mu$  to be a probability measure on a probabil
 
 • Countable additivity
 
-• $\mu(X)$ = 1
 
 [^3]: Wikipedia, Measure (Mathematics): https://en.wikipedia.org/wiki/Measure_(mathematics)
 [^4]: Wikipedia, σ-algebra: https://en.wikipedia.org/wiki/%CE%A3-algebra
+[^5]: Wikipedia, Probability Measure: https://en.wikipedia.org/wiki/Probability_measure
