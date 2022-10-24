@@ -9,4 +9,14 @@ Andrey Kolmogorov was a Russian mathematician. In 1933, he contribuited to proba
 The probability of an event is a non-negative real number:
 $$P(E)\in\mathbb{R}, \quad P(E)\ge0 \quad \forall \ E\in F$$
 
-where <math>F</math> is the event space. It follows that <math>P(E)</math> is always finite, in contrast with more general [[Measure (mathematics)|measure theory]].  Theories which assign [[negative probability]] relax the first axiom.
+where <math>F</math> is the event space. It follows that <math>P(E)</math> is always finite, in contrast with more general measure theory. 
+
+## Second Axiom
+
+This is the assumption of unit measure: that the probability that at least one of the elementary events in the entire sample space will occur is 1
+\\[P(&Omega;) = 1\\]
+
+## Third Axiom
+This is the assumpion of σ-additivity:
+  Any countable sequence of disjoint sets $E_1, E_2,...$ satisfies
+  $$P(\bigcup_{i=1}^{\infty}E_i)= \sum_{i=1}^{\infty} P(E_i)$$
