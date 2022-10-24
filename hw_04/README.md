@@ -61,5 +61,4 @@ $\epsilon = \\{ \Omega, \emptyset , T, H, \bar{T}, \bar{H}, T \cup H, T \cap H \
 
 • Two tosses of a coin: Ω = {HH, HT , TH, T T}
 
-• Reals: Ω = {n | n ∈ R}.
 
