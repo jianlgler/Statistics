@@ -33,5 +33,5 @@ This is the assumpion of σ-additivity:
   $$P(\bigcup_{i=1}^{\infty}E_i)= \sum_{i=1}^{\infty} P(E_i)$$
 
 We can find parallels of these axioms in relative frequency, let define $A$ and $B$ as events: 
-1. Frequency is a non-negative number, in fact $$0\leq f_A \leq 1$$
+1. $$0\leq f_A \leq 1$$
 2. $f(\emptyset)=0$ and $f(Population)=1$
