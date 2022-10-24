@@ -63,7 +63,7 @@ $\epsilon = \\{ \Omega, \emptyset , T, H, \bar{T}, \bar{H}, T \cup H, T \cap H \
 
 # Measure Theory as Foundation of Probability Theory
 
-Probability Theory finds its foundation in Measure Theory[^3:]:
+Probability Theory finds its foundation in Measure Theory[^3]:
 Let $X$ be a set and $\Sigma$  a $\sigma$ -algebra over $X$. A set function $\mu$  from $\Sigma$  to the extended real number line is called a measure if it satisfies the following properties:
 
 **Non-negativity**: For all $E$ in $\Sigma$ , we have $\mu (E)\geq 0$.
