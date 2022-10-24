@@ -87,7 +87,12 @@ If the condition of non-negativity is omitted but the second and third of these 
 
 The pair $(X,\Sigma )$ is called a measurable space, and the members of $\Sigma$ are called measurable sets.
 
-A triple $(X,\Sigma ,\mu )$ is called a measure space. A probability measure is a measure with total measure one – that is, $\mu (X)=1$. A probability space is a measure space with a probability measure.
+A triple $(X,\Sigma ,\mu )$ is called a measure space. 
+
+The requirements for a function {\displaystyle \mu }\mu  to be a probability measure on a probability space are that:
+• $\mu$  must return results in the unit interval [0,1] returning 0 for the empty set and 1 for the entire space.
+
+• Countable additivity
 
 [^3]: Wikipedia, Measure (Mathematics): https://en.wikipedia.org/wiki/Measure_(mathematics)
 [^4]: Wikipedia, σ-algebra: https://en.wikipedia.org/wiki/%CE%A3-algebra
