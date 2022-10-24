@@ -90,7 +90,8 @@ The pair $(X,\Sigma )$ is called a measurable space, and the members of $\Sigma$
 A triple $(X,\Sigma ,\mu )$ is called a measure space. 
 
 The requirements for a function {\displaystyle \mu }\mu  to be a probability measure on a probability space are that:
-• $\mu$  must return results in the unit interval [0,1] returning 0 for the empty set and 1 for the entire space.
+
+• $\mu$  must return results in the unit interval [0,1] returning 0 for the empty set and 1 for the entire space
 
 • Countable additivity
 
