@@ -25,7 +25,7 @@ where <math>F</math> is the event space. It follows that <math>P(E)</math> is al
 ## Second Axiom
 
 This is the assumption of unit measure: that the probability that at least one of the elementary events in the entire sample space will occur is 1
-\\[P(&Omega;) = 1\\]
+$$\\[P(&Omega;) = 1\\]$$
 
 ## Third Axiom
 This is the assumpion of σ-additivity:
