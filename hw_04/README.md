@@ -109,6 +109,9 @@ In the same chart, there's a histogram representing the distribution of the abov
 
 ![norm](https://user-images.githubusercontent.com/74598295/198003930-80c981ec-77a5-4457-8867-d14e65276905.jpg)
 
+[Download Link]()
+
+Code is also avaible on GitHub! 
 
 [^3]: Wikipedia, Measure (Mathematics): https://en.wikipedia.org/wiki/Measure_(mathematics)
 [^4]: Wikipedia, σ-algebra: https://en.wikipedia.org/wiki/%CE%A3-algebra
