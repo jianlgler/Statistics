@@ -95,6 +95,20 @@ The requirements for a function $\mu$  to be a probability measure on a probabil
 
 • Countable additivity
 
+# Application
+
+The following application simulates m sequences of n trials distributed according a Binomial with success probability p and represent the following quantities: absolute frequency of success, relative frequency of success, "normalized" relative frequency of success.
+In the same chart, there's a histogram representing the distribution of the above 3 types of frequencies on the last trial.
+
+
+![rel](https://user-images.githubusercontent.com/74598295/198003899-5ca91086-0c59-437b-a5ea-89a894a1f927.jpg)
+
+
+![abs](https://user-images.githubusercontent.com/74598295/198003918-0b64a5c1-e094-4a30-8e55-6e37c4f09cdf.jpg)
+
+
+![norm](https://user-images.githubusercontent.com/74598295/198003930-80c981ec-77a5-4457-8867-d14e65276905.jpg)
+
 
 [^3]: Wikipedia, Measure (Mathematics): https://en.wikipedia.org/wiki/Measure_(mathematics)
 [^4]: Wikipedia, σ-algebra: https://en.wikipedia.org/wiki/%CE%A3-algebra
