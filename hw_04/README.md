@@ -138,7 +138,27 @@ g.DrawRectangle(pen, x, y, width, height);
 # how to get device coordinates from world coordinates
 We can imagine that world coordinates live in a certain space, or interval. For every point in this interval, we want to migrate to other coordinates, made for our computer pixels.
 What we need is a linear transformation that change our points. By applying it to the world space we can reach the device space.
+These are the transformation for each variable
 
+![x](https://user-images.githubusercontent.com/74598295/198011588-27b800fc-86fe-44d8-8c48-95d85a089a84.png)
+
+![y](https://user-images.githubusercontent.com/74598295/198012120-8851c06d-073d-4be1-a2f5-350fc5c55f7c.png)
+
+
+In C# we write them down like this:
+```
+        private double X_Normalization(double x, double w, double max, double min, int offset)
+        {
+            if ((max - min) == 0) return 0;
+            return offset + w * (x - min) / (max - min);
+        }
+
+        private double Y_Normalization(double y, double h, double max, double min, int offset)
+        {
+            if ((max - min) == 0) return 0;
+            return offset + h - h * (y - min)  / (max - min);
+        }
+```
 
 # how to get device coordinates from world coordinates
 [^3]: Wikipedia, Measure (Mathematics): https://en.wikipedia.org/wiki/Measure_(mathematics)
