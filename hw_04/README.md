@@ -113,6 +113,11 @@ In the same chart, there's a histogram representing the distribution of the abov
 
 Code is also avaible on GitHub! 
 
+# A simple introduction to graphics in the .NET environment. How to create a bitmap and a chart on it
+
+To use graphics in the .NET environment we first have to declare a Bitmap object:
+
+
 [^3]: Wikipedia, Measure (Mathematics): https://en.wikipedia.org/wiki/Measure_(mathematics)
 [^4]: Wikipedia, σ-algebra: https://en.wikipedia.org/wiki/%CE%A3-algebra
 [^5]: Wikipedia, Probability Measure: https://en.wikipedia.org/wiki/Probability_measure
