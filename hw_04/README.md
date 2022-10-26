@@ -109,15 +109,34 @@ In the same chart, there's a histogram representing the distribution of the abov
 
 ![norm](https://user-images.githubusercontent.com/74598295/198003930-80c981ec-77a5-4457-8867-d14e65276905.jpg)
 
-[Download Link]()
+[Download Link](https://drive.google.com/file/d/1nwJ5dovMdHwboRA40SHx90aJCCRlwz50/view?usp=sharing)
 
 Code is also avaible on GitHub! 
 
 # A simple introduction to graphics in the .NET environment. How to create a bitmap and a chart on it
 
 To use graphics in the .NET environment we first have to declare a Bitmap object:
+```
+Bitmap bmp = new Bitmap(width, height);
+```
+This will be the image upon which we will be drawing. 
+Then we have to declare a Graphics object which will be responsible of applying the low-level operations when drawing more complex shapes like lines and rectangles:
+```
+Graphics g = Graphics.FromImage(bmp);
+```
+To see the results of our actions, we will have to add the bitmap to a picture box by setting its Image property and, 
+every time we want to update the picture box with the changes, we will have to use its Refresh() method.
 
-
+Once setup we can use many methods to plot charts on it, for example we can draw lines:
+```
+// Pens define the color and stroke of a line
+Pen pen = new Pen(Color.FromArgb(255, 255, 0, 0))
+g.DrawLine(pen, x1, y1, x2, y2);
+```
+and rectangles
+```
+g.DrawRectangle(pen, x, y, width, height);
+```
 [^3]: Wikipedia, Measure (Mathematics): https://en.wikipedia.org/wiki/Measure_(mathematics)
 [^4]: Wikipedia, σ-algebra: https://en.wikipedia.org/wiki/%CE%A3-algebra
 [^5]: Wikipedia, Probability Measure: https://en.wikipedia.org/wiki/Probability_measure
