@@ -1,0 +1,17 @@
+C:\Users\suum\OneDrive\Desktop\uni\statistics\04\apps\hw4\hw4\bin\Debug\net6.0-windows\hw4.exe
+C:\Users\suum\OneDrive\Desktop\uni\statistics\04\apps\hw4\hw4\bin\Debug\net6.0-windows\hw4.deps.json
+C:\Users\suum\OneDrive\Desktop\uni\statistics\04\apps\hw4\hw4\bin\Debug\net6.0-windows\hw4.runtimeconfig.json
+C:\Users\suum\OneDrive\Desktop\uni\statistics\04\apps\hw4\hw4\bin\Debug\net6.0-windows\hw4.dll
+C:\Users\suum\OneDrive\Desktop\uni\statistics\04\apps\hw4\hw4\bin\Debug\net6.0-windows\hw4.pdb
+C:\Users\suum\OneDrive\Desktop\uni\statistics\04\apps\hw4\hw4\obj\Debug\net6.0-windows\hw4.csproj.AssemblyReference.cache
+C:\Users\suum\OneDrive\Desktop\uni\statistics\04\apps\hw4\hw4\obj\Debug\net6.0-windows\hw4.Form1.resources
+C:\Users\suum\OneDrive\Desktop\uni\statistics\04\apps\hw4\hw4\obj\Debug\net6.0-windows\hw4.csproj.GenerateResource.cache
+C:\Users\suum\OneDrive\Desktop\uni\statistics\04\apps\hw4\hw4\obj\Debug\net6.0-windows\hw4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suum\OneDrive\Desktop\uni\statistics\04\apps\hw4\hw4\obj\Debug\net6.0-windows\hw4.AssemblyInfoInputs.cache
+C:\Users\suum\OneDrive\Desktop\uni\statistics\04\apps\hw4\hw4\obj\Debug\net6.0-windows\hw4.AssemblyInfo.cs
+C:\Users\suum\OneDrive\Desktop\uni\statistics\04\apps\hw4\hw4\obj\Debug\net6.0-windows\hw4.csproj.CoreCompileInputs.cache
+C:\Users\suum\OneDrive\Desktop\uni\statistics\04\apps\hw4\hw4\obj\Debug\net6.0-windows\hw4.dll
+C:\Users\suum\OneDrive\Desktop\uni\statistics\04\apps\hw4\hw4\obj\Debug\net6.0-windows\refint\hw4.dll
+C:\Users\suum\OneDrive\Desktop\uni\statistics\04\apps\hw4\hw4\obj\Debug\net6.0-windows\hw4.pdb
+C:\Users\suum\OneDrive\Desktop\uni\statistics\04\apps\hw4\hw4\obj\Debug\net6.0-windows\hw4.genruntimeconfig.cache
+C:\Users\suum\OneDrive\Desktop\uni\statistics\04\apps\hw4\hw4\obj\Debug\net6.0-windows\ref\hw4.dll
