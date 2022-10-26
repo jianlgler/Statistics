@@ -115,7 +115,7 @@ Code is also avaible on GitHub!
 
 # A simple introduction to graphics in the .NET environment. How to create a bitmap and a chart on it
 
-To use graphics in the .NET environment we first have to declare a Bitmap object:
+To use graphics in the .NET environment we first declare a Bitmap object:
 ```
 Bitmap bmp = new Bitmap(width, height);
 ```
@@ -124,19 +124,18 @@ Then we have to declare a Graphics object which will be responsible of applying 
 ```
 Graphics g = Graphics.FromImage(bmp);
 ```
-To see the results of our actions, we will have to add the bitmap to a picture box by setting its Image property and, 
-every time we want to update the picture box with the changes, we will have to use its Refresh() method.
+To see the results of our actions, we will have to add the bitmap to a picture box by setting its Image property and by updating the picture box with the changes.
 
-Once setup we can use many methods to plot charts on it, for example we can draw lines:
+Once setup we can use many methods to plot charts on it, for example:
 ```
-// Pens define the color and stroke of a line
 Pen pen = new Pen(Color.FromArgb(255, 255, 0, 0))
+// line
 g.DrawLine(pen, x1, y1, x2, y2);
-```
-and rectangles
-```
+//rectangle
 g.DrawRectangle(pen, x, y, width, height);
 ```
+
+# how to get device coordinates from world coordinates
 [^3]: Wikipedia, Measure (Mathematics): https://en.wikipedia.org/wiki/Measure_(mathematics)
 [^4]: Wikipedia, σ-algebra: https://en.wikipedia.org/wiki/%CE%A3-algebra
 [^5]: Wikipedia, Probability Measure: https://en.wikipedia.org/wiki/Probability_measure
