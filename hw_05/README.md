@@ -51,9 +51,11 @@ The following table summarizes some common named means that are special cases of
 ![image](https://user-images.githubusercontent.com/74598295/199335978-86a23af8-b3b8-4696-a5d8-584cfb4abdcd.png)
 
 
-
-    
 [^1]: Wikipedia, Arithmetic Mean: https://en.wikipedia.org/wiki/Arithmetic_mean
 [^2]: Wikipedia, Geometric Mean: https://en.wikipedia.org/wiki/Geometric_mean 
 [^3]: Wikipedia, Harmonic Mean: https://en.wikipedia.org/wiki/Harmonic_mean
 [^4]: Wikipedia, Weighted Arithmetic Mean: https://en.wikipedia.org/wiki/Weighted_arithmetic_mean
+
+# Mathematical Convergence vs Convergence in Probability
+
+
