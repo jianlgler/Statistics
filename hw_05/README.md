@@ -44,7 +44,7 @@ It can be thought as a generalization of the standard arithmetic mean: actually 
 
 Also known as power mean or Hölder mean are a family of functions for aggregating sets of numbers.
 A power mean is a mean of the form $$M_p(x_1,...,x_n)=(\frac{1}{n}\sum_{i=1}^{n}{x_i^p})^{1/p}$$
-![image](https://user-images.githubusercontent.com/74598295/199335058-db8bbb59-34bb-40fc-8371-047a474db1a4.png)
+Where $p$ is a non-zero real number, and $x_1,...,x_n$ are positive real numbers.
 
     
 [^1]: Wikipedia, Arithmetic Mean: https://en.wikipedia.org/wiki/Arithmetic_mean
