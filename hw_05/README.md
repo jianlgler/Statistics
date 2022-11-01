@@ -63,6 +63,6 @@ For example, the function y(x) = 1/x converges to zero as x increases. Although 
 
 When we refer about converge in probability, we are referring to convergence of a set of random variables $$X_1,X_22,…,X_N$$ to a distribution $$X$$
 This, as opposed to point-wise convergence, is a function-wise convergence.
-Convergence in probability is said to be _non-deterministic_.
+Convergence in probability is said to be _non-deterministic_, stablished by the weak law of large numbers.
 
 [^5]: Britannica.com, convergence: https://www.britannica.com/science/convergence-mathematics
