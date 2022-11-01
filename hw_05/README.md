@@ -66,7 +66,7 @@ Convergence in probability is said to be _non-deterministic_, stablished by the 
 
 Convergence in distribution is in some sense the weakest type of convergence [^7]. All it says is that the CDF (cumulative distribution function) of Xn's converges to the CDF of $$X$$ as n goes to infinity. It does not require any dependence between the $$X_n$$ and $$X$$.
 
-In particular, for a sequence $$X_1, X_2, X_3$$ ⋯ to converge to a random variable $$X$$, we must have that $$P(|Xn−X|≥ϵ)$$ goes to 0 as $$n→∞$$, for any $$ϵ>0$$. 
+In particular, for a sequence $$X_1, X_2, X_3$$ ⋯ to converge to a random variable $$X$$, we must have that $$P(Abs(Xn−X)≥ϵ)$$ goes to 0 as $$n→∞$$, for any $$ϵ>0$$. 
 
 Convergence in probability is stronger than convergence in distribution.
 When we refer about converge in probability, we are referring to convergence of a set of random variables $$X_1,X_2,…,X_N$$ to a distribution $$X$$
