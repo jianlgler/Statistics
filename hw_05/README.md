@@ -69,7 +69,7 @@ Convergence in distribution is in some sense the weakest type of convergence [^7
 In particular, for a sequence $$X_1, X_2, X_3$$ ⋯ to converge to a random variable $$X$$, we must have that $$P(|Xn−X|≥ϵ)$$ goes to 0 as $$n→∞$$, for any $$ϵ>0$$. 
 
 Convergence in probability is stronger than convergence in distribution.
-When we refer about converge in probability, we are referring to convergence of a set of random variables $$X_1,X_22,…,X_N$$ to a distribution $$X$$
+When we refer about converge in probability, we are referring to convergence of a set of random variables $$X_1,X_2,…,X_N$$ to a distribution $$X$$
 This, as opposed to point-wise convergence, is a function-wise convergence.
 
 [^5]: Britannica.com, convergence: https://www.britannica.com/science/convergence-mathematics
