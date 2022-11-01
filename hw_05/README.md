@@ -33,7 +33,15 @@ It's one of several kinds of average. It is sometimes appropriate for situations
 The harmonic mean can be expressed as the reciprocal of the arithmetic mean of the reciprocals of the given set of observations[^3]. 
     $$H = \frac{n}{\frac{1}{x_1}+\frac{1}{x_2}+...+\frac{1}{x_n}}$$
     
+## Weighted Arithmetic Mean
+
+The weighted arithmetic mean is similar to an ordinary arithmetic mean (the most common type of average), except that instead of each of the data points contributing equally to the final average, some data points contribute more than others. The notion of weighted mean plays a role in descriptive statistics and also occurs in a more general form in several other areas of mathematics[^4].
+     $$(1/n)*\sum_{i=1}^{n }\ w_{i}*a_{i}$$
+     
+It can be thought as a generalization of the standard arithmetic mean: actually if all the weights are equal, then the weighted mean is the same as the arithmetic mean. 
+     
     
 [^1]: Wikipedia, Arithmetic Mean: https://en.wikipedia.org/wiki/Arithmetic_mean
 [^2]: Wikipedia, Geometric Mean: https://en.wikipedia.org/wiki/Geometric_mean 
 [^3]: Wikipedia, Harmonic Mean: https://en.wikipedia.org/wiki/Harmonic_mean
+[^4]: Wikipedia, Weighted Arithmetic Mean: https://en.wikipedia.org/wiki/Weighted_arithmetic_mean
