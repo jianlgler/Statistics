@@ -31,7 +31,6 @@ The geometric mean is a mean or average which indicates a central tendency of a 
 
 It's one of several kinds of average. It is sometimes appropriate for situations when the average rate is desired.
 The harmonic mean can be expressed as the reciprocal of the arithmetic mean of the reciprocals of the given set of observations. 
-
     $$H = \frac{n}{\frac{1}{x_1}+\frac{1}{x_2}+...+\frac{1}{x_n}}$$
     
     
