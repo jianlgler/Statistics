@@ -76,4 +76,5 @@ This, as opposed to point-wise convergence, is a function-wise convergence.
 [^6]: Wikipedia, cdf, https://en.wikipedia.org/wiki/Cumulative_distribution_function
 [^7]: Probabilitycourse: https://www.probabilitycourse.com/chapter7/7_2_4_convergence_in_distribution.php
 [^8]: Probabilitycourse: https://www.probabilitycourse.com/chapter7/7_2_5_convergence_in_probability.php
+
 #  Differences between Descriptive Statistics and Inferential Statistics, the role of probability and probability distributions
