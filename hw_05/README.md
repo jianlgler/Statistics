@@ -58,4 +58,9 @@ The following table summarizes some common named means that are special cases of
 
 # Mathematical Convergence vs Convergence in Probability
 
+convergence, in mathematics, property (exhibited by certain infinite series and functions) of approaching a limit more and more closely as an argument (variable) of the function increases or decreases or as the number of terms of the series increases.
+For example, the function y(x) = 1/x converges to zero as x increases. Although no finite value of x will cause the value of y to actually become zero, the limiting value of y is zero because y can be made as small as desired by choosing x large enough[^5].
 
+When we refer about converge in probability, we are referring to convergence of a set of random variables $$X_1,X_22,…,X_N$$ to a distribution $$X$$. This, as opposed to point-wise convergence, is a function-wise convergence.
+
+[^5]: Britannica.com, convergence: https://www.britannica.com/science/convergence-mathematics
