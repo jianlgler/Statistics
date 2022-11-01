@@ -40,6 +40,11 @@ The weighted arithmetic mean is similar to an ordinary arithmetic mean (the most
      
 It can be thought as a generalization of the standard arithmetic mean: actually if all the weights are equal, then the weighted mean is the same as the arithmetic mean. 
      
+# Generalized Mean 
+
+Also known as power mean or Hölder mean are a family of functions for aggregating sets of numbers.
+A power mean is a mean of the form ![image](https://user-images.githubusercontent.com/74598295/199335058-db8bbb59-34bb-40fc-8371-047a474db1a4.png)
+
     
 [^1]: Wikipedia, Arithmetic Mean: https://en.wikipedia.org/wiki/Arithmetic_mean
 [^2]: Wikipedia, Geometric Mean: https://en.wikipedia.org/wiki/Geometric_mean 
