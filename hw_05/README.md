@@ -27,5 +27,14 @@ Arithmetic mean is just one of the many different function used to analyze distr
 The geometric mean is a mean or average which indicates a central tendency of a set of numbers by using the product of their values [^2] (as opposed to the arithmetic mean which uses their sum). The geometric mean is defined as the nth root of the product of n numbers, i.e., for a set of numbers x1, x2, ..., xn, the geometric mean is defined as  
     $$(\prod_{i=1}^{n} x_1)^{1/n}=\sqrt[n]{x_1 x_2 ... x_n}$$
 
+## Harmonic Mean
+
+It's one of several kinds of average. It is sometimes appropriate for situations when the average rate is desired.
+The harmonic mean can be expressed as the reciprocal of the arithmetic mean of the reciprocals of the given set of observations. 
+
+    $$H = \frac{n}{\frac{1}{x_1}+\frac{1}{x_2}+...+\frac{1}{x_n}}$$
+    
+    
 [^1]: Wikipedia, Arithmetic Mean: https://en.wikipedia.org/wiki/Arithmetic_mean
 [^2]: Wikipedia, Geometric Mean: https://en.wikipedia.org/wiki/Geometric_mean 
+[^3]: Wikipedia, Harmonic Mean: https://en.wikipedia.org/wiki/Harmonic_mean
