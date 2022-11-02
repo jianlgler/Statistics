@@ -77,6 +77,6 @@ This, as opposed to point-wise convergence, is a function-wise convergence.
 
 #  Differences between Descriptive Statistics and Inferential Statistics, the role of probability and probability distributions
 
-With Inferential Statistics the dataset we use to retrieve information is just a limmited subset of the whole population: we try to draw conclusion about an unknown theorical population from a sample. Actually this kind of statistics infers properties of a population. 
+With Inferential Statistics the dataset we use to retrieve information is just a limmited subset of the whole population: we try to draw conclusion about an unknown theorical population from a sample. Actually this kind of statistics infers properties of a population, which is said to be unknown. 
+
 On the other hand, in descriptive statistics what what we retrieve from a dataset is an empirical distribution, that's because the sample is actually representative of the whole population.
-In inferential statistics what we have is just a sample from a population we dont know
