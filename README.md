@@ -74,4 +74,14 @@
 
 ## HW_5
 
+
+* Research
+1. Explain all possible derivation of the arithmetic mean and in general of the other common types of averages
+2. Illustrate the difference between "mathematical convergence" and "convergence" in probability
+3. Illustrate the differences between Descriptive Statistics and Inferential Statistics and the role of probability and probability distributions
+
+* Application
+1. Given an arbitrary rectangle and a distribution, create the corresponding histogram or column chart, with both vertical and horizontal orientation
+2. Given a rectangle, enable its movement/resize/zoom using a mouse (this will be the resizable where we will draw alll future charts)
+
 - [Theory Link](https://jianlgler.github.io/Statistics/hw_05/)
