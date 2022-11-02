@@ -71,3 +71,7 @@
 
 
 - [Theory Link](https://jianlgler.github.io/Statistics/hw_04/)
+
+## HW_5
+
+- [Theory Link](https://jianlgler.github.io/Statistics/hw_05/)
