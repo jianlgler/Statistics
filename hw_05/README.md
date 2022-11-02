@@ -1,3 +1,4 @@
+# HOMEWORK 05
 
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -9,9 +10,6 @@
     });
   </script>
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-
-
-# HOMEWORK 05
 
 # Arithmetic Mean: Derivations and Generalization
 
@@ -78,3 +76,7 @@ This, as opposed to point-wise convergence, is a function-wise convergence.
 [^8]: Probabilitycourse: https://www.probabilitycourse.com/chapter7/7_2_5_convergence_in_probability.php
 
 #  Differences between Descriptive Statistics and Inferential Statistics, the role of probability and probability distributions
+
+With Inferential Statistics the dataset we use to retrieve information is just a limmited subset of the whole population: we try to draw conclusion about an unknown theorical population from a sample. Actually this kind of statistics infers properties of a population. 
+On the other hand, in descriptive statistics what what we retrieve from a dataset is an empirical distribution, that's because the sample is actually representative of the whole population.
+In inferential statistics what we have is just a sample from a population we dont know
