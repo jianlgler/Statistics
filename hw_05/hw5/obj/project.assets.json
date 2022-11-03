@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\suum\\OneDrive\\Desktop\\uni\\statistics\\04\\apps\\hw5\\hw5\\hw5.csproj",
+      "projectUniqueName": "C:\\Users\\suum\\OneDrive\\Desktop\\uni\\statistics\\05\\hw_05\\hw5\\hw5.csproj",
       "projectName": "hw5",
-      "projectPath": "C:\\Users\\suum\\OneDrive\\Desktop\\uni\\statistics\\04\\apps\\hw5\\hw5\\hw5.csproj",
+      "projectPath": "C:\\Users\\suum\\OneDrive\\Desktop\\uni\\statistics\\05\\hw_05\\hw5\\hw5.csproj",
       "packagesPath": "C:\\Users\\suum\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\suum\\OneDrive\\Desktop\\uni\\statistics\\04\\apps\\hw5\\hw5\\obj\\",
+      "outputPath": "C:\\Users\\suum\\OneDrive\\Desktop\\uni\\statistics\\05\\hw_05\\hw5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\suum\\AppData\\Roaming\\NuGet\\NuGet.Config",
