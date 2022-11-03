@@ -80,3 +80,8 @@ This, as opposed to point-wise convergence, is a function-wise convergence.
 With Inferential Statistics the dataset we use to retrieve information is just a limmited subset of the whole population: we try to draw conclusion about an unknown theorical population from a sample. Actually this kind of statistics infers properties of a population, which is said to be unknown. 
 
 On the other hand, in descriptive statistics what what we retrieve from a dataset is an empirical distribution, that's because the sample is actually representative of the whole population.
+
+# Application
+
+Here's an application that meets both features.
+Code can be found in [Github](https://github.com/jianlgler/Statistics/tree/main/hw_05) or can be [downloaded](https://drive.google.com/file/d/1E-89SsOFk52JhsjJ2GTJP95NMldSgEZ_/view?usp=share_link).
