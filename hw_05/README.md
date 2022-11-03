@@ -85,3 +85,12 @@ On the other hand, in descriptive statistics what what we retrieve from a datase
 
 Here's an application that meets both features.
 Code can be found in [Github](https://github.com/jianlgler/Statistics/tree/main/hw_05) or can be [downloaded](https://drive.google.com/file/d/1E-89SsOFk52JhsjJ2GTJP95NMldSgEZ_/view?usp=share_link).
+
+![image](https://user-images.githubusercontent.com/74598295/199712639-f6cfbaff-879c-424c-96c0-9f474564cc61.png)
+
+![image](https://user-images.githubusercontent.com/74598295/199712724-c4c71326-3831-4d54-943d-84117ac6dae7.png)
+
+![image](https://user-images.githubusercontent.com/74598295/199712790-04894007-dbd2-4552-bea2-888418eedf14.png)
+
+
+
