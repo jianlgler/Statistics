@@ -19,3 +19,10 @@ In statistics, a population is the pool of individuals from which a statistical 
 ## What's a Sampling Distribution?
 
 In statistics, a sampling distribution is the probability distribution of a given random-sample-based statistic. If an arbitrarily large number of samples, each involving multiple observations (data points), were separately used in order to compute one value of a statistic (such as, for example, the sample mean or sample variance) for each sample, then the sampling distribution is the probability distribution of the values that the statistic takes on. In many contexts, only one sample is observed, but the sampling distribution can be found theoretically. The sampling distribution of a given population is the distribution of frequencies of a range of different outcomes that could possibly occur for a statistic of a population. A population is the entire pool from which a statistical sample is drawn. 
+
+## Show the expected value and variance of the sampling mean and take a look at the same sampling variance
+
+In probability theory, the expected value (also called expectation, expectancy, mathematical expectation, mean, average, or first moment) is a generalization of the weighted average. Informally, the expected value is the arithmetic mean of a large number of independently selected outcomes of a random variable.
+The expected value of a random variable with a finite number of outcomes is a weighted average of all possible outcomes. In the case of a continuum of possible outcomes, the expectation is defined by integration. 
+
+The expected value of a random variable $$X$$ is often denoted by $$E[X]$$
