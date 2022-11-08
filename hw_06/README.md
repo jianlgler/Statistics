@@ -35,3 +35,13 @@ Given a sequence of identical distributed and indipendent random variables $$X_i
 $$
 \bar{X}=\frac{\sum_i X_i}{n}
 $$
+
+Let's now compute the expected value and variance of the sample mean:
+
+$$
+E(\bar{X})=E(\frac{\sum_iX_i}{n})=\frac{1}{n}\sum_iE(X_i)=\frac{1}{n}nE(X)=E(X)
+$$
+
+$$
+Var(\bar{X})=Var(\frac{\sum_i X_i}{n})=\frac{1}{n^2}Var(\sum_i X_i)=\frac{1}{n^2}nVar(X)=\frac{\sigma ^2}{n}
+$$
