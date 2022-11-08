@@ -28,5 +28,5 @@ The expected value of a random variable with a finite number of outcomes is a we
 The expected value of a random variable $$X$$ is often denoted by $$E[X]$$.
 Consider a random variable X with a finite list $$x_1, ..., x_k$$ of possible outcomes, each of which (respectively) has probability $$p_1, ..., p_k$$ of occurring. The expectation of $$X$$ is defined as 
 
-E[X] = $$x_1$$$$p_1$$+$$x_2$$$$p_2$$+...+$$x_k$$$$p_k$$.
+E[X] = $$x_1p_1+x_2p_2+...+x_kp_k$$.
 Since the probabilities must satisfy $$p_1 + ⋅⋅⋅ + p_k$$ = 1, it is natural to interpret $$E[X]$$ as a weighted average of the $$x_i$$ values, with weights given by their probabilities $$p_i$$.
