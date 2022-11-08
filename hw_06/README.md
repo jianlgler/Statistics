@@ -25,4 +25,8 @@ In statistics, a sampling distribution is the probability distribution of a give
 In probability theory, the expected value (also called expectation, expectancy, mathematical expectation, mean, average, or first moment) is a generalization of the weighted average. Informally, the expected value is the arithmetic mean of a large number of independently selected outcomes of a random variable.
 The expected value of a random variable with a finite number of outcomes is a weighted average of all possible outcomes. In the case of a continuum of possible outcomes, the expectation is defined by integration. 
 
-The expected value of a random variable $$X$$ is often denoted by $$E[X]$$
+The expected value of a random variable $$X$$ is often denoted by $$E[X]$$.
+Consider a random variable X with a finite list $$x_1, ..., x_k$$ of possible outcomes, each of which (respectively) has probability $$p_1, ..., p_k$$ of occurring. The expectation of $$X$$ is defined as 
+
+E[X] = $$x_1$$$$p_1$$+$$x_2$$$$p_2$$+...+$$x_k$$$$p_k$$.
+Since the probabilities must satisfy $$p_1 + ⋅⋅⋅ + p_k$$ = 1, it is natural to interpret $$E[X]$$ as a weighted average of the $$x_i$$ values, with weights given by their probabilities $$p_i$$.
