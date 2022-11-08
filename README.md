@@ -85,3 +85,16 @@
 2. Given a rectangle, enable its movement/resize/zoom using a mouse (this will be the resizable where we will draw alll future charts)
 
 - [Theory Link](https://jianlgler.github.io/Statistics/hw_05/)
+
+## HW_6
+
+
+* Research
+1. Try to explain in your own words, the concept of population and sampling distribution 
+2. Show the expected value and variance of the sampling mean and take a look at the same sampling variance
+
+* Application
+1. Take any population and any variable X  and draw m (large) samples of size n (as you like) and represent the following 2 distributions:
+Distribution of the Mean and Distribution of the Variance. Finally, for each distribution compute mean and variance and compare with the corrisponding values in the population.
+
+- [Theory Link](https://jianlgler.github.io/Statistics/hw_06/)
