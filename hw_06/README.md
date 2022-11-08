@@ -47,3 +47,18 @@ Var(\bar{X})=Var(\frac{\sum_i X_i}{n})=\frac{1}{n^2}Var(\sum_i X_i)=\frac{1}{n^2
 $$
 
 We can see that the expected value of the sampling mean is equal to the mean value computed on the population. We also notice that the larger the sample size (equal to the standard deviation over n), the smaller the variance of the sampling mean (it actually tends to zero).
+
+## Sample Variance
+
+The sample variance, S, is used to calculate how varied a sample is.
+$$
+S=\frac{1}{n}\sum_{i=1}^n(X_i-\bar{X})^2
+$$
+
+$$
+E(S)=E(\frac{1}{n}\sum_{i=1}^n(X_i-\bar{X})^2)=\frac{n-1}{n}\sigma ^2
+$$
+
+$$
+Var(S)=Var(\frac{1}{n}\sum_{i=1}^n(X_i-\bar{X})^2)=\frac{\mu_4}{n}-\frac{\sigma ^4(n-3)}{n(n-1)}
+$$
