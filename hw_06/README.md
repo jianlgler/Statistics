@@ -60,7 +60,7 @@ E(S)=E(\frac{1}{n}\sum_{i=1}^n(X_i-\bar{X})^2)=\frac{n-1}{n}\sigma ^2
 $$
 
 $$
-Var(S)=Var(\frac{1}{n}\sum_{i=1}^n(X_i-\bar{X})^2)=\frac{\mu_4}{n}-\frac{\sigma ^4(n-3)}{n(n-1)}=\frac{1}{n}\mu_4-\frac{\sigma ^4(n-3)}{(n-1)}
+Var(S)=Var(\frac{1}{n}\sum_{i=1}^n(X_i-\bar{X})^2)=\frac{\mu_4}{n}-\frac{\sigma ^4(n-3)}{n(n-1)}=\frac{1}{n}(\mu_4-\frac{n-3}{n-1}\sigma ^4)
 $$
 
 Where where $\mu_4$ is the fourth central moment of $X$ and its value is $E((X-\bar{X})^4)$ .
