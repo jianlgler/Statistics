@@ -30,3 +30,6 @@ Consider a random variable X with a finite list $$x_1, ..., x_k$$ of possible ou
 
 $$E[X]$$ = $$x_1p_1+x_2p_2+...+x_kp_k$$.
 Since the probabilities must satisfy $$p_1 + ⋅⋅⋅ + p_k$$ = 1, it is natural to interpret $$E[X]$$ as a weighted average of the $$x_i$$ values, with weights given by their probabilities $$p_i$$.
+
+Given a sequence of identical distributed and indipendent random variables $$X_i$$ for i ∈ N, we can define the mean random variable called “sample mean” as the following:
+$$(1/n)*\sum_{i=1}^{n }\ X_{i}$$
