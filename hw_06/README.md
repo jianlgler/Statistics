@@ -64,3 +64,5 @@ Var(S)=Var(\frac{1}{n}\sum_{i=1}^n(X_i-\bar{X})^2)=\frac{\mu_4}{n}-\frac{\sigma 
 $$
 
 Where where $\mu_4$ is the fourth central moment of $X$ and its value is $E((X-\bar{X})^4)$ .
+
+# Application
