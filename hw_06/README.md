@@ -66,3 +66,7 @@ $$
 Where where $\mu_4$ is the fourth central moment of $X$ and its value is $E((X-\bar{X})^4)$ .
 
 # Application
+
+What follos is an app that simulates $$m$$ samples of $$n$$ size each. The random variable used is an abstract datatype with only one integer value (could be expanded).
+What the program does is plotting Distribution of the Mean and Distribution of the Variance, then confrontates these datas with the whole population's statistics.
+
