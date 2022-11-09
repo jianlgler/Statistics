@@ -74,4 +74,4 @@ What the program does is plotting Distribution of the Mean and Distribution of t
 
 ![image](https://user-images.githubusercontent.com/74598295/200947153-0468b099-2c8e-4259-af7a-0426b6659aa1.png)
 
-
+Code avaible on [GitHub](https://github.com/jianlgler/Statistics/tree/main/hw_06) and on [Drive](https://drive.google.com/file/d/1ZyZHyOuADbGyWz3Jue16P3KfnOHaZID-/view?usp=share_link).
