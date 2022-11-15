@@ -29,7 +29,7 @@ If we have a way of assigning a "size" to $E_i$, call it its "measure" $μ(E_i)$
 $$y_i\mu (E_i)\le A\le y_{i+1}\mu (E_i)$$
 So Lebesgue suggests to approximate the the area by picking a number $y_i^*$ between $y_i$ and $y_{i+1}$, and considering the sums
 
-
+$$\sum_{i=0}^{n-1} \mu (E_i y_i^*)$$.
 
 
 [1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
