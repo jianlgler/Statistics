@@ -19,7 +19,8 @@ The usual definition of the Lebesgue integral has little to do with probability 
 Here is an intuitive idea of what the Lebesgue integral is, as compared to the Riemann integral.
 Recall from Calculus the idea behind the Riemann integral: the integral $\int_a^b f(x) \, dx$ is meant to represent the net signed area between the x-axis, the graph of $y=f(x)$, and the lines x=a and x=b. The way we attempt to do this is by breaking up the domain, [a,b], into subintervals $[a=x_0,x_1], [x_1,x_2],…,[x_{n−1},x_n=b]$. Then, on each subinterval $[x_i,x_{i+1}]$ we pick a point $p_i$, and we estimate the area under the graph of the function with the rectangle of height $f(p_i)$ and base $[x_i, x_{i+1}]$. This leads to the Riemann sums:
 $$\sum_{i=0}^{n-1} f(p_i)f(x_{i+1} - x_i)$$
-    
-$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
+as estimates of the area under the graph. We then consider finer and finer partitions of $[a,b]$ and take limits to estimate the area.
+
+Lebesgue's idea was that instead of partitioning the domain, we will partition the range; if the function takes values between $c$ and $d$, we can divide the range $[c,d]$ into subintervals $[c=y_0,y_1], [y_1,y_2],…,[y_{m−1},y_m=d]$. Then, we let $E_i$ be the set of all points in $[a,b]$ whose value under f lies between $y_i$ and $y_{i+1}$. That is,
 
 [1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
