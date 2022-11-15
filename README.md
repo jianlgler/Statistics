@@ -98,3 +98,18 @@
 Distribution of the Mean and Distribution of the Variance. Finally, for each distribution compute mean and variance and compare with the corrisponding values in the population.
 
 - [Theory Link](https://jianlgler.github.io/Statistics/hw_06/)
+
+
+## HW_7
+
+
+* Research
+1. Try to understand the general idea of the Lebesgue-Stieltjes integral and why it is useful concept and notation in Theory of Probability
+2. Explain in your own words the "Law of large numbers" and sketch a simple proof (Markov inequality, Čebyšëv inequality, ... )
+
+* Application
+1. Consider a general scheme ad the simulation of previous homework and simulate the distribution of p = SUM(xi) , where xi are Bernoulli(lambda/n), with success probability lambda /n, where lambda is a user constant ("arrival rate").
+Also plot the distribution of the "interarrival times".
+Finally, search on the web to understand what you have actually simulated (eg: https://www.probabilitycourse.com/chapter11/11_1_2_basic_concepts_of_the_poisson_process.php )
+
+- [Theory Link](https://jianlgler.github.io/Statistics/hw_06/)
