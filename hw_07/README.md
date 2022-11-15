@@ -25,7 +25,7 @@ Lebesgue's idea was that instead of partitioning the domain, we will partition t
 $$E_i = f^{-1}([y_i, y_{i+1}]) = \{ x ∈ [a, b] | y_i \le f(x) \le y_{i+1} \}$$ 
 If we have a way of assigning a "size" to $E_i$, call it its "measure" $μ(E_i)$, then the portion of the graph of $y=f(x)$ that lies between the horizontal lines $y=y_i$ and $y=y_{i+1}$ will be $A$, where,
 $$y_i\mu (E_i)\le A\le y_{i+1}\mu (E_i)$$
-
+So Lebesgue suggests to approximate the the area by picking a number $y_i^*$ between $y_i$ and $y_{i+1}$, and considering the sums
 
 
 
