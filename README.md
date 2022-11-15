@@ -112,4 +112,4 @@ Distribution of the Mean and Distribution of the Variance. Finally, for each dis
 Also plot the distribution of the "interarrival times".
 Finally, search on the web to understand what you have actually simulated (eg: https://www.probabilitycourse.com/chapter11/11_1_2_basic_concepts_of_the_poisson_process.php )
 
-- [Theory Link](https://jianlgler.github.io/Statistics/hw_06/)
+- [Theory Link](https://jianlgler.github.io/Statistics/hw_07/)
