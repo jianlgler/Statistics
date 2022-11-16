@@ -113,10 +113,11 @@ What this means is that the probability that, as the number of trials n goes to 
 
 ## Chebyshev's Inequality 
 
-If $X$ is any random variable, then for any $b>0$ we have
+If $X$ is any random variable with finite expected value $μ$ and finite non-zero variance $σ^2$, then for any $ε>0$ we have
 $$
-P(|X - EX| \ge b) \le \frac {Var(X)}{b^2}
+P(|X - \mu| \ge εσ) \le \frac {1}{ε^2}
 $$
+
 
 [^1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
 [^2]: Wikipedia, Lebesgue Integration: https://en.wikipedia.org/wiki/Lebesgue_integration#Intuitive_interpretation 
