@@ -56,8 +56,7 @@ The Lebesgue integral may then be defined by adding up the areas of these horizo
 Lebesgue's theory defines integrals for a class of functions called measurable functions: we start with a measure space $(E, X, μ)$ where $E$ is a set, $X$ is a $σ$-algebra of subsets of $E$, and $μ$ is a (non-negative) measure on $E$ defined on the sets of $X$[^2].
 In the mathematical theory of probability, we confine our study to a probability measure μ, which satisfies $μ(E) = 1$, relations between measure theory and probability can be found in previous homeworks.
 
-This kind of integral is important to us because it removes the dicotomy between discrete and continuous random variable, adopting "measurable spaces".
-
+This kind of integral is important to us because it removes the dicotomy between discrete and continuous random variable, by generalizing the definitions based on a random variable distribution such as Expectation and Variance.
 For example, let $(E, S, μ)$ be a measure (probability) space, $X:E \to \Re$ a random variable. We define the expected value of $X$ as 
 
 $$
