@@ -118,6 +118,8 @@ $$
 P(|X - \mu| \ge εσ) \le \frac {1}{ε^2}
 $$
 
+## Proof using Chebyshev's Inequality 
+This proof uses the assumption of finite variance $Var(X_i) = σ^2$ (for all {\displaystyle i}i). 
 
 [^1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
 [^2]: Wikipedia, Lebesgue Integration: https://en.wikipedia.org/wiki/Lebesgue_integration#Intuitive_interpretation 
