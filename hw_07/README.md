@@ -104,6 +104,12 @@ Interpreting this result, the weak law states that for any nonzero margin specif
 
 ## SLLN
 
+The strong law of large numbers (also called Kolmogorov's law) states that the sample average converges almost surely to the expected value: 
+$$
+\bar X_n \to \mu \quad as \quad n \to \infty
+$$.
+That is, $Pr(\lim \limits_{n \to \infty} {\bar X_n} = \mu) = 1$.
+What this means is that the probability that, as the number of trials n goes to infinity, the average of the observations converges to the expected value, is equal to one. 
 
 [^1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
 [^2]: Wikipedia, Lebesgue Integration: https://en.wikipedia.org/wiki/Lebesgue_integration#Intuitive_interpretation 
