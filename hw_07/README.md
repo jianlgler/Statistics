@@ -61,7 +61,11 @@ For example, let $(E, S, μ)$ be a measure (probability) space, $X:E \to \Re$ a 
 
 $$
 EX = \int_E Xdμ
+$$
 
+and
+
+$$
 VX = \int_E (X - EX)^2 dμ
 $$
 
