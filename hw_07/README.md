@@ -52,4 +52,6 @@ $$
 \mu ( \{ x | f(x) > y \} ) dy.
 $$
 
+The Lebesgue integral may then be defined by adding up the areas of these horizontal slabs.
+
 [1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
