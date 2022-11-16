@@ -130,6 +130,17 @@ $$
 P(|{\bar X_n - \mu}| \ge ε) \le \frac{σ^2}{nε^2}
 $$.
 
+This may be used to obtain the following: 
+
+$$
+P(|{\bar X_n - \mu}| < ε) = 1 - P(|{\bar X_n - \mu}| \ge ε) \ge 1 - \frac{σ^2}{nε^2}
+$$.
+
+As n approaches infinity, the expression approaches 1. And by definition of convergence in probability, we have obtained
+\bar X_n \to \mu \quad when \quad n \to \infty.
+
+# Application
+
 [^1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
 [^2]: Wikipedia, Lebesgue Integration: https://en.wikipedia.org/wiki/Lebesgue_integration#Intuitive_interpretation 
 [^3]: Wikipedia, LLN: https://en.wikipedia.org/wiki/Law_of_large_numbers#Weak_law
