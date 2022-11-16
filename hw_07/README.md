@@ -89,6 +89,8 @@ $$
 \bar X_n \to \mu \quad as \quad n \to \infty
 $$.
 
+(Lebesgue integrability of $X_i$ means that the expected value $E(X_i)$ exists according to Lebesgue integration and is finite).
+
 [^1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
 [^2]: Wikipedia, Lebesgue Integration: https://en.wikipedia.org/wiki/Lebesgue_integration#Intuitive_interpretation 
 [^3]: Wikipedia, LLN: https://en.wikipedia.org/wiki/Law_of_large_numbers#Weak_law
