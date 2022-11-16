@@ -26,12 +26,18 @@ $$
 as estimates of the area under the graph. We then consider finer and finer partitions of $[a,b]$ and take limits to estimate the area.
 
 Lebesgue's idea was that instead of partitioning the domain, we will partition the range; if the function takes values between $c$ and $d$, we can divide the range $[c,d]$ into subintervals $[c=y_0,y_1], [y_1,y_2],…,[y_{m−1},y_m=d]$. Then, we let $E_i$ be the set of all points in $[a,b]$ whose value under f lies between $y_i$ and $y_{i+1}$. That is,
-$$E_i = f^{-1}([y_i, y_{i+1}]) = \{ x ∈ [a, b] | y_i \le f(x) \le y_{i+1} \}$$ 
+
+$$
+E_i = f^{-1}([y_i, y_{i+1}]) = \{ x ∈ [a, b] | y_i \le f(x) \le y_{i+1} \}
+$$ 
+
 If we have a way of assigning a "size" to $E_i$, call it its "measure" $μ(E_i)$, then the portion of the graph of $y=f(x)$ that lies between the horizontal lines $y=y_i$ and $y=y_{i+1}$ will be $A$, where,
 $$y_i\mu (E_i)\le A\le y_{i+1}\mu (E_i)$$
 So Lebesgue suggests to approximate the the area by picking a number $y_i^*$ between $y_i$ and $y_{i+1}$, and considering the sums
 
-$$\sum_{i=0}^{n-1} \mu (E_i) y_i^*$$.
+$$
+\sum_{i=0}^{n-1} \mu (E_i) y_i^*
+$$.
 
 
 [1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
