@@ -86,7 +86,7 @@ $$
 converges to the expected value:
 
 $$
-\bar X_n \to \mu as n \to \inf
+{\bar X_n} \to \mu as n \to \inf
 $$.
 
 [^1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
