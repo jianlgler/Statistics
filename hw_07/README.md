@@ -80,7 +80,7 @@ Importantly, the law applies only when a large number of observations are consid
 There are two different versions of the law of large numbers that are described below. They are called the strong law of large numbers and the weak law of large numbers. Stated for the case where $X1, X2, \dots $ is an infinite sequence of independent and identically distributed (i.i.d.) Lebesgue integrable random variables with expected value $E(X_1) = E(X_2) = \dots = µ$, both versions of the law state that the sample average
 
 $$
-{\overline X}_n={\frac {1}{n}}(X_1+ \dots + X_n)
+{\bar X}_n={\frac {1}{n}}(X_1+ \dots + X_n)
 $$
 
 [^1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
