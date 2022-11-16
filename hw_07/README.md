@@ -71,5 +71,18 @@ $$
 
 where E is a sample space, and it could be discrete or continuous.
 
+# Law of Large Numbers
+
+It's a theorem that describes the result of performing the same experiment a large number of times. According to the law, the average of the results obtained from a large number of trials should be close to the expected value and tends to become closer to the expected value as more trials are performed[^3].
+The LLN is important because it guarantees stable long-term results for the averages of some random events. For example, while a casino may lose money in a single spin of the roulette wheel, its earnings will tend towards a predictable percentage over a large number of spins.
+Importantly, the law applies only when a large number of observations are considered. There is no principle that a small number of observations will coincide with the expected value or that a streak of one value will immediately be "balanced" by the others.
+
+There are two different versions of the law of large numbers that are described below. They are called the strong law of large numbers and the weak law of large numbers. Stated for the case where $X1, X2, \dots $ is an infinite sequence of independent and identically distributed (i.i.d.) Lebesgue integrable random variables with expected value $E(X_1) = E(X_2) = \dots = µ$, both versions of the law state that the sample average
+
+$$
+{\overline X}_n={\frac {1}{n}}(X_1+ \dots + X_n)
+$$
+
 [^1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
 [^2]: Wikipedia, Lebesgue Integration: https://en.wikipedia.org/wiki/Lebesgue_integration#Intuitive_interpretation 
+[^3]: Wikipedia, LLN: https://en.wikipedia.org/wiki/Law_of_large_numbers#Weak_law
