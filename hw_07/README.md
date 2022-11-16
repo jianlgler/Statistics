@@ -111,6 +111,13 @@ $$.
 That is, $Pr(\lim \limits_{n \to \infty} {\bar X_n} = \mu) = 1$.
 What this means is that the probability that, as the number of trials n goes to infinity, the average of the observations converges to the expected value, is equal to one. 
 
+## Chebyshev's Inequality 
+
+If $X$ is any random variable, then for any $b>0$ we have
+$$
+P(|X - EX| \ge b) \le \frac {Var(X)}{b^2}
+$$
+
 [^1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
 [^2]: Wikipedia, Lebesgue Integration: https://en.wikipedia.org/wiki/Lebesgue_integration#Intuitive_interpretation 
 [^3]: Wikipedia, LLN: https://en.wikipedia.org/wiki/Law_of_large_numbers#Weak_law
