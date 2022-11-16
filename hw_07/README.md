@@ -46,5 +46,10 @@ Then consider finer and finer partitions of $[c,d]$, and this gives finer and fi
 
 ![image](https://user-images.githubusercontent.com/74598295/202142277-372c77be-aaca-4ef4-9454-1fc5653e4bd2.png)
 
+So for the Lebesgue integral, the range is partitioned into intervals, and so the region under the graph is partitioned into horizontal "slabs" (which may not be connected sets). The area of a small horizontal "slab" under the graph of $f$, of height $dy$, is equal to the measure of the slab's width times $dy$:
+
+$$
+\mu ( \{ x | f(x) > y \} ) dy.
+$$
 
 [1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
