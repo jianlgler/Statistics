@@ -98,7 +98,12 @@ The weak law of large numbers (also called Khinchin's law) states that the sampl
 $$
 \bar X_n \to \mu \quad as \quad n \to \infty
 $$, 
-that is, for any positive number $ε$, $\lim \limits_{n \to \infty}$
+that is, for any positive number $ε$, $\lim \limits_{n \to \infty} Pr(|{\bar X_n} - \mu| < ε) = 1$.
+
+Interpreting this result, the weak law states that for any nonzero margin specified, no matter how small, with a sufficiently large sample there will be a very high probability that the average of the observations will be close to the expected value; that is, within the margin.
+
+## SLLN
+
 
 [^1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
 [^2]: Wikipedia, Lebesgue Integration: https://en.wikipedia.org/wiki/Lebesgue_integration#Intuitive_interpretation 
