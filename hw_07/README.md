@@ -25,7 +25,7 @@ $$
 
 as estimates of the area under the graph. We then consider finer and finer partitions of $[a,b]$ and take limits to estimate the area.
 
-Lebesgue's idea was that instead of partitioning the domain, we will partition the range; if the function takes values between $c$ and $d$, we can divide the range $[c,d]$ into subintervals $[c=y_0,y_1], [y_1,y_2],…,[y_{m−1},y_m=d]$. Then, we let $E_i$ be the set of all points in $[a,b]$ whose value under f lies between $y_i$ and $y_{i+1}$. That is,
+Lebesgue's idea was that instead of partitioning the domain, we will partition the range; if the function takes values between $c$ and $d$, we can divide the range $[c,d]$ into subintervals $[c=y_0,y_1], [y_1,y_2],…,[y_{m−1},y_m=d]$. Then, we let $E_i$ be the set of all points in $[a,b]$ whose value under $f$ lies between $y_i$ and $y_{i+1}$. That is,
 
 $$E_i = f^{-1}([y_i, y_{i+1}]) = \{ x ∈ [a, b] | y_i \le f(x) \le y_{i+1} \}$$ 
 
