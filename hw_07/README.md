@@ -83,6 +83,12 @@ $$
 {\bar X}_n={\frac {1}{n}}(X_1+ \dots + X_n)
 $$
 
+converges to the expected value:
+
+$$
+\bar X_n \to \mu as n \to \inf
+$$.
+
 [^1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
 [^2]: Wikipedia, Lebesgue Integration: https://en.wikipedia.org/wiki/Lebesgue_integration#Intuitive_interpretation 
 [^3]: Wikipedia, LLN: https://en.wikipedia.org/wiki/Law_of_large_numbers#Weak_law
