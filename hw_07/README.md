@@ -113,14 +113,22 @@ What this means is that the probability that, as the number of trials n goes to 
 
 ## Chebyshev's Inequality 
 
-If $X$ is any random variable with finite expected value $μ$ and finite non-zero variance $σ^2$, then for any $ε>0$ we have
+If $X$ is any random variable with finite expected value $μ$ and finite non-zero variance $σ^2$, then for any $k>0$ we have
 $$
-P(|X - \mu| \ge εσ) \le \frac {1}{ε^2}
+P(|X - \mu| \ge kσ) \le \frac {1}{k^2}
 $$
 
 ## Proof using Chebyshev's Inequality 
 This proof uses the assumption of finite variance $Var(X_i) = σ^2$ (for all $i$). 
 $$Var({\bar X_n}) = Var(\frac{1}{n}(X_1 + \dots + X_n)) = \frac{1}{n^2}Var(X_1 + \dots + X_n) = \frac{nσ^2}{n^2} = \frac{σ^2}{n}$$
+
+The common mean μ of the sequence is the mean of the sample average: $E({\bar X_n}) = \mu$.
+
+Using Chebyshev's inequality on ${\bar X_n}$ results in
+
+$$
+P(|{\bar X_n - \mu}| \ge ε) \le \frac{σ^2}{nε^2}
+$$.
 
 [^1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
 [^2]: Wikipedia, Lebesgue Integration: https://en.wikipedia.org/wiki/Lebesgue_integration#Intuitive_interpretation 
