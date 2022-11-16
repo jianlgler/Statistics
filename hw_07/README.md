@@ -19,7 +19,9 @@ The usual definition of the Lebesgue integral has little to do with probability 
 Here is an intuitive idea of what the Lebesgue integral is, as compared to the Riemann integral.
 Recall from Calculus the idea behind the Riemann integral: the integral $\int_a^b f(x) \, dx$ is meant to represent the net signed area between the x-axis, the graph of $y=f(x)$, and the lines x=a and x=b. The way we attempt to do this is by breaking up the domain, [a,b], into subintervals $[a=x_0,x_1], [x_1,x_2],…,[x_{n−1},x_n=b]$. Then, on each subinterval $[x_i,x_{i+1}]$ we pick a point $y_i^*$, and we estimate the area under the graph of the function with the rectangle of height $f(y_i^*)$ and base $[x_i, x_{i+1}]$. This leads to the Riemann sums:
 
-$$\sum_{i=0}^{n-1} f(y_i^*)f(x_{i+1} - x_i)$$
+$$
+\sum_{i=0}^{n-1} f(y_i^*)f(x_{i+1} - x_i)
+$$
 
 as estimates of the area under the graph. We then consider finer and finer partitions of $[a,b]$ and take limits to estimate the area.
 
