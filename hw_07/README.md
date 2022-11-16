@@ -90,6 +90,15 @@ $$
 $$.
 
 (Lebesgue integrability of $X_i$ means that the expected value $E(X_i)$ exists according to Lebesgue integration and is finite).
+The difference between the strong and the weak version is concerned with the mode of convergence being asserted.
+
+## WLLN
+
+The weak law of large numbers (also called Khinchin's law) states that the sample average converges in probability towards the expected value
+$$
+\bar X_n \to \mu \quad as \quad n \to \infty
+$$, 
+that is, for any positive number $ε$, $\lim \limits_{n \to \infty}$
 
 [^1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
 [^2]: Wikipedia, Lebesgue Integration: https://en.wikipedia.org/wiki/Lebesgue_integration#Intuitive_interpretation 
