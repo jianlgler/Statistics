@@ -141,7 +141,7 @@ As n approaches infinity, the expression approaches 1. And by definition of conv
 
 # Application
 
-Following the homework 4 application, we compute the distribution of samples of coin tosses but this time with a success probability for each toss of λ/n. We also plot a p = SUM(xi) distribution, where $X_i$ are Bernoulli.
+Following the homework 4 application, we compute the distribution of samples of coin tosses but this time with a success probability for each toss of λ/n. We also plot a p = SUM($X_i$) distribution, where $X_i$ are Bernoulli.
 
 [^1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
 [^2]: Wikipedia, Lebesgue Integration: https://en.wikipedia.org/wiki/Lebesgue_integration#Intuitive_interpretation 
