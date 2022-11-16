@@ -86,7 +86,7 @@ $$
 converges to the expected value:
 
 $$
-{\bar X}_n \to \mu \quad as \quad n \to \infty
+\bar X_n \to \mu \quad as \quad n \to \infty
 $$.
 
 [^1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
