@@ -143,6 +143,12 @@ As n approaches infinity, the expression approaches 1. And by definition of conv
 
 Following the homework 4 application, we compute the distribution of samples of coin tosses but this time with a success probability for each toss of λ/n. We also plot a p = SUM($X_i$) distribution, where $X_i$ are Bernoulli.
 
+![h71](https://user-images.githubusercontent.com/74598295/202265506-4f00e301-98c9-4c4f-b820-6e9d9c22db7c.jpg)
+
+![h72](https://user-images.githubusercontent.com/74598295/202265522-580e1ab0-e497-4cd3-8e51-7908d5540ef7.jpg)
+
+Code is avaible on github or can be downloaded with [drive](https://drive.google.com/file/d/16KWn6UwOH7DlQWEapas9-39NgIsGbiAj/view?usp=share_link)
+
 [^1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
 [^2]: Wikipedia, Lebesgue Integration: https://en.wikipedia.org/wiki/Lebesgue_integration#Intuitive_interpretation 
 [^3]: Wikipedia, LLN: https://en.wikipedia.org/wiki/Law_of_large_numbers#Weak_law
