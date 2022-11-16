@@ -61,11 +61,10 @@ For example, let $(E, S, μ)$ be a measure (probability) space, $X:E \to \Re$ a 
 
 $$
 EX = \int_E Xdμ
+
+VX = \int_E (X - EX)^2 dμ
 $$
 
-$$
-VX = \int_E (X - EX)^2 dF
-$$
 where E is a sample space, and it could be discrete or continuous.
 
 [1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
