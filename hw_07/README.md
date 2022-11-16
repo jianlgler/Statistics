@@ -42,5 +42,9 @@ $$
 \sum_{i=0}^{n-1} \mu (E_i) y_i^*
 $$
 
+Then consider finer and finer partitions of $[c,d]$, and this gives finer and finer approximations of of the area by these sums. The Lebesgue integral will be the limit of these sums. 
+
+![image](https://user-images.githubusercontent.com/74598295/202142277-372c77be-aaca-4ef4-9454-1fc5653e4bd2.png)
+
 
 [1]: StackExchange, Lebesque Integral Basics: https://math.stackexchange.com/questions/7436/lebesgue-integral-basics
