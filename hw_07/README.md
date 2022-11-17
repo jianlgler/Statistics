@@ -147,7 +147,7 @@ Following the homework 4 application, we compute the distribution of samples of 
 
 ![image](https://user-images.githubusercontent.com/74598295/202481062-03feaf1a-5ebf-4d08-a9b5-2456d7144dd4.png)
 
-
+![image](https://user-images.githubusercontent.com/74598295/202482280-5641e428-bbd1-40ec-98ab-c30f2ace93c5.png)
 
 Code is avaible on github or can be downloaded with [drive](https://drive.google.com/file/d/1slndmn2G6HW2aEwQBe3DOxqo5W-voSVW/view?usp=share_link)
 
