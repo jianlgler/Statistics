@@ -113,3 +113,14 @@ Also plot the distribution of the "interarrival times".
 Finally, search on the web to understand what you have actually simulated (eg: https://www.probabilitycourse.com/chapter11/11_1_2_basic_concepts_of_the_poisson_process.php )
 
 - [Theory Link](https://jianlgler.github.io/Statistics/hw_07/)
+
+## HW_8
+
+* Application
+1. Consider X (radius), Y( angle) uniform r.vs. and use them to determine points on a plane as image. Determine the empirical distribution of the Cartesian coordinates
+2. Search for the methods to generate a NORMAL r.v. X , and simulate (Application)  the following distribution  : X, X², X/Y², X²/Y² , X/Y . And find in the web what are these distributions
+
+* Research
+1. Search on the web about this problem, compare your results with theoretical results found
+
+- [Theory Link](https://jianlgler.github.io/Statistics/hw_08/) 
