@@ -14,9 +14,10 @@ namespace hw_06
 
         Dictionary<int, List<Point>> all;
         Dictionary<int, int> interarrival_times;
+        Dictionary<double, int> hist_d;
 
         Random ra = new Random();
-        Rectangle window;
+        Rectangle window, window2;
 
 
 
@@ -31,7 +32,7 @@ namespace hw_06
             b = new Bitmap(pictureBox1.Width, pictureBox1.Height);
             g = Graphics.FromImage(b);
 
-            r1 = new MyRectangle(pictureBox1.Width / 2, 0, (pictureBox1.Width / 2) - 10, (pictureBox1.Height) - 100, pictureBox1, this);
+            r1 = new MyRectangle(0, (pictureBox1.Height / 2), (pictureBox1.Width) - 10, (pictureBox1.Height / 2) - 50 , pictureBox1, this);
            
 
             this.pictureBox1.Image = b;
@@ -54,10 +55,9 @@ namespace hw_06
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
-
             all = new Dictionary<int, List<Point>>();
             interarrival_times = new Dictionary<int, int>();
+            hist_d = new Dictionary<double, int>();
 
             int traj = (int) trackBar1.Value;
             int trials = (int) trackBar2.Value;
@@ -65,8 +65,9 @@ namespace hw_06
 
             double min_x = 0; double min_y = 0; double max_x = trials; double max_y = trials;
             last = new List<Point>();
-            window = new Rectangle(0, 0, (pictureBox1.Width / 2) - 10, (pictureBox1.Height) - 10);
-            
+            window = new Rectangle(0, 0, ((2*pictureBox1.Width ) / 3) - 10, (pictureBox1.Height / 2) - 10);
+            window2 = new Rectangle(((2 * pictureBox1.Width) / 3), 0, ((pictureBox1.Width) / 3) - 10, (pictureBox1.Height / 2) - 10);
+
             for (int i = 0; i < traj; i++)
             {
                 List<Point> punti = new List<Point>();
@@ -74,8 +75,6 @@ namespace hw_06
                 int interval = 0;
                 for (int x = 0; x < trials; x++)
                 {
-
-                    ra.NextDouble();
 
                     if (ra.NextDouble() < succ)
                     {
@@ -96,15 +95,46 @@ namespace hw_06
                     if (x == trials - 1)
                     {
                         last.Add(p);
+                        if (!hist_d.ContainsKey(y_var)) hist_d.Add(y_var, 1);
+                        else hist_d[y_var]++;
                     }
                 }
+                
                 all.Add(i, punti);
                 g.DrawLines(pen, punti.ToArray());
-                
-                
             }
             timer1.Start();
-            draw();
+            draw(); drawH();
+
+            pictureBox1.Image = b;
+        }
+
+        private void drawH()
+        {
+            //int space_height = window2.Bottom - window2.Top - 20;
+            int space_height = (int)(hist_d.Keys.Max() - hist_d.Keys.Min() );
+            int space_width = window2.Right - window2.Left - 20;
+
+            g.FillRectangle(Brushes.Black, window2);
+            g.DrawRectangle(Pens.Black, window2);
+
+            int hist_width = space_height / hist_d.Count;
+            int start = window2.Y;
+
+            foreach (KeyValuePair<double, int> k in hist_d)
+            {
+                int rect_height = (int)(((double)k.Value / (double)hist_d.Values.Max()) * ((double)space_width));
+                //Rectangle hr = new Rectangle(window2.Left, start, rect_height, hist_width);
+
+                Rectangle hr = new Rectangle(window2.Left, (int) k.Key, rect_height, hist_width + 1); //10
+
+                g.FillRectangle(Brushes.Lime, hr);
+                g.DrawRectangle(Pens.Lime, hr);
+
+                
+
+                start += hist_width;
+            }
 
             pictureBox1.Image = b;
         }
@@ -139,8 +169,8 @@ namespace hw_06
                 g.FillRectangle(Brushes.Lime, hr);
                 g.DrawRectangle(Pens.Black, hr);
 
-                Rectangle stringPos = new Rectangle(start, r1.r.Bottom - 10, hist_width, hist_width + 20);
-                Font font1 = new Font("Arial", 12, FontStyle.Regular, GraphicsUnit.Pixel);
+                Rectangle stringPos = new Rectangle(start, r1.r.Bottom - 30, hist_width + 10, hist_width + 20);
+                Font font1 = new Font("Arial", 4, FontStyle.Regular, GraphicsUnit.Pixel);
 
                 StringFormat stringFormat = new StringFormat();
                 stringFormat.Alignment = StringAlignment.Center;
@@ -181,7 +211,7 @@ namespace hw_06
 
             float ScaleFontSize = PreferedFont.Size * ScaleRatio / (2);
 
-            return new Font(PreferedFont.FontFamily, ScaleFontSize );
+            return new Font(PreferedFont.FontFamily, ScaleFontSize / 2 );
         }
 
        
@@ -189,10 +219,124 @@ namespace hw_06
         private void timer1_Tick(object sender, EventArgs e)
         {
             g.Clear(pictureBox1.BackColor);
-            draw(); 
-
+            draw();
+            drawH();
         }
 
-        
+        private void button2_Click(object sender, EventArgs e)
+        {
+            all = new Dictionary<int, List<Point>>();
+            interarrival_times = new Dictionary<int, int>();
+            hist_d = new Dictionary<double, int>();
+
+            int traj = (int)trackBar1.Value;
+            int trials = (int)trackBar2.Value;
+            double succ = (double)trackBar3.Value / trials;
+
+            double min_x = 0; double min_y = 0; double max_x = trials; double max_y = 1;
+            last = new List<Point>();
+            window = new Rectangle(0, 0, ((2 * pictureBox1.Width) / 3) - 10, (pictureBox1.Height / 2) - 10);
+
+            for (int i = 0; i < traj; i++)
+            {
+                List<Point> punti = new List<Point>();
+                double y = 0;
+                int interval = 0;
+                for (int x = 0; x < trials; x++)
+                {
+
+                    if (ra.NextDouble() < succ)
+                    {
+                        y++;
+                        if (!interarrival_times.ContainsKey(interval)) interarrival_times.Add(interval, 1);
+                        else interarrival_times[interval]++;
+                        interval = 0;
+                    }
+                    else interval++;
+
+                    int x_var = (int)X_Normalization(x, window.Width, max_x, min_x, window.Left);
+
+                    int y_var = (int)Y_Normalization(y/(x+1), window.Height, max_y, min_y, window.Top);
+
+                    Point p = new Point(x_var, y_var);
+                    punti.Add(p);
+                    //all.Add(punti);
+                    if (x == trials - 1)
+                    {
+                        last.Add(p);
+                        if (!hist_d.ContainsKey(y_var)) hist_d.Add(y_var, 1);
+                        else hist_d[y_var]++;
+                    }
+                }
+
+                all.Add(i, punti);
+                g.DrawLines(pen, punti.ToArray());
+
+
+            }
+            timer1.Start();
+            draw(); drawH();
+
+            pictureBox1.Image = b;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            all = new Dictionary<int, List<Point>>();
+            interarrival_times = new Dictionary<int, int>();
+            hist_d = new Dictionary<double, int>();
+
+            int traj = (int)trackBar1.Value;
+            int trials = (int)trackBar2.Value;
+            double succ = (double)trackBar3.Value / trials;
+
+            double min_x = 0; double min_y = 0; double max_x = trials; double max_y = ((double)trials) * succ;
+            last = new List<Point>();
+            window = new Rectangle(0, 0, ((2 * pictureBox1.Width) / 3) - 10, (pictureBox1.Height / 2) - 10);
+
+            for (int i = 0; i < traj; i++)
+            {
+                List<Point> punti = new List<Point>();
+                double y = 0;
+                int interval = 0;
+                for (int x = 0; x < trials; x++)
+                {
+
+                    ra.NextDouble();
+
+                    if (ra.NextDouble() < succ)
+                    {
+                        y++;
+                        if (!interarrival_times.ContainsKey(interval)) interarrival_times.Add(interval, 1);
+                        else interarrival_times[interval]++;
+                        interval = 0;
+                    }
+                    else interval++;
+
+                    int x_var = (int)X_Normalization(x, window.Width, max_x, min_x, window.Left);
+
+                    int y_var = (int)Y_Normalization(y / Math.Sqrt(x + 1), window.Height, max_y, min_y, window.Top);
+
+                    Point p = new Point(x_var, y_var);
+                    punti.Add(p);
+                    //all.Add(punti);
+                    if (x == trials - 1)
+                    {
+                        last.Add(p);
+                        if (!hist_d.ContainsKey(y_var)) hist_d.Add(y_var, 1);
+                        else hist_d[y_var]++;
+                    }
+                }
+
+                all.Add(i, punti);
+                g.DrawLines(pen, punti.ToArray());
+
+
+            }
+            timer1.Start();
+            draw(); drawH();
+
+            pictureBox1.Image = b;
+        }
     }
 }
