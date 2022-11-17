@@ -143,9 +143,11 @@ As n approaches infinity, the expression approaches 1. And by definition of conv
 
 Following the homework 4 application, we compute the distribution of samples of coin tosses but this time with a success probability for each toss of λ/n. We also plot a p = SUM($X_i$) distribution, where $X_i$ are Bernoulli.
 
-![h71](https://user-images.githubusercontent.com/74598295/202265506-4f00e301-98c9-4c4f-b820-6e9d9c22db7c.jpg)
+![image](https://user-images.githubusercontent.com/74598295/202480888-67f8ebbb-0dea-4873-ae6c-4a2dd1ad42b1.png)
 
-![h72](https://user-images.githubusercontent.com/74598295/202265522-580e1ab0-e497-4cd3-8e51-7908d5540ef7.jpg)
+![image](https://user-images.githubusercontent.com/74598295/202481062-03feaf1a-5ebf-4d08-a9b5-2456d7144dd4.png)
+
+
 
 Code is avaible on github or can be downloaded with [drive](https://drive.google.com/file/d/1slndmn2G6HW2aEwQBe3DOxqo5W-voSVW/view?usp=share_link)
 
