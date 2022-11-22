@@ -25,5 +25,7 @@ To change coordinates we used the following formulas:
 
 $$
 x = r \cos (\theta)
+$$
+$$
 y = r \sin (\theta)
 $$
