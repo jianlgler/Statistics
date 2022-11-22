@@ -121,6 +121,6 @@ Finally, search on the web to understand what you have actually simulated (eg: h
 2. Search for the methods to generate a NORMAL r.v. X , and simulate (Application)  the following distribution  : X, X², X/Y², X²/Y² , X/Y . And find in the web what are these distributions
 
 * Research
-1. Search on the web about this problem, compare your results with theoretical results found
-
+1. Search on the web about first applicaiton's issue, compare your results with theoretical results found
+2. Search on the web about the distribution used in the second application
 - [Theory Link](https://jianlgler.github.io/Statistics/hw_08/) 
