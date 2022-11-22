@@ -23,4 +23,12 @@ Code's avaible on GitHub or [Drive](https://drive.google.com/file/d/1MffYJjZ6b9x
 
 To change coordinates we used the following formulas:
 
-$$x = r \cos (\theta)$$ and $$y = r \sin (\theta) $$
+$$
+x = r \cos (\theta)
+$$ 
+
+and 
+
+$$
+y = r \sin (\theta) 
+$$
