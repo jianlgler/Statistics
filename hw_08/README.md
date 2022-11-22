@@ -32,3 +32,20 @@ and
 $$
 y = r \sin (\theta) 
 $$
+
+The polar coordinates are generated through a Random object, which return a double that falls inside $[0, 360°]$ for the angle and inside $[0, radius]$ for the module.
+We can notice that X and Y's distributions have a so-called bell shape...they resemble two normal distributions!
+This is because we are simulating something that is very similar to a Box–Muller transform [^1]:  it is a random number sampling method for generating pairs of independent, standard, normally distributed random numbers, given a source of uniformly distributed random numbers.
+Suppose $U_1, U_2$ as independent samples chosen from the uniform distribution on the unit interval (0, 1):
+
+$$
+Z_0 = R \cos (\Theta) = {\sqrt -2\ln U_1} {\cos 2\pi U_2}
+$$
+
+and
+
+$$
+
+$$
+
+[^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
