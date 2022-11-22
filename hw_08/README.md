@@ -45,7 +45,7 @@ $$
 and
 
 $$
-Z_1 = R \sin (\Theta) = \sqrt {-2\ln U_1} {\cos 2\pi U_2}
+Z_1 = R \sin (\Theta) = \sqrt {-2\ln U_1} {\sin 2\pi U_2}
 $$
 
 [^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
