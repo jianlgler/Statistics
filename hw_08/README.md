@@ -39,13 +39,13 @@ This is because we are simulating something that is very similar to a Box–Mull
 Suppose $U_1, U_2$ as independent samples chosen from the uniform distribution on the unit interval (0, 1):
 
 $$
-Z_0 = R \cos (\Theta) = {\sqrt -2\ln U_1} {\cos 2\pi U_2}
+Z_0 = R \cos (\Theta) = \sqrt {-2\ln U_1} {\cos 2\pi U_2}
 $$
 
 and
 
 $$
-
+Z_1 = R \sin (\Theta) = \sqrt {-2\ln U_1} {\cos 2\pi U_2}
 $$
 
 [^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
