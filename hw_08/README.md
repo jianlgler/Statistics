@@ -49,5 +49,8 @@ Z_1 = R \sin (\Theta) = \sqrt {-2\ln U_1} {\sin 2\pi U_2}
 $$
 
 Then $Z_0$ and $Z_1$ are independent random variables with a standard normal distribution.
+The difference we notice between our method and the Box-Muller method is that we obtain by the following formula: $R = rU_1$ instead of $R = \sqrt {-2\ln U_1}$
+
+A derivation of this formula is the Marsaglia Polar Method, which allows us to transform 
 
 [^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
