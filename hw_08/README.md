@@ -48,4 +48,6 @@ $$
 Z_1 = R \sin (\Theta) = \sqrt {-2\ln U_1} {\sin 2\pi U_2}
 $$
 
+Then $Z_0$ and $Z_1$ are independent random variables with a standard normal distribution.
+
 [^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
