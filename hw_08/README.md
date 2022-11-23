@@ -148,7 +148,7 @@ This application generates 10000 normal random variables, then computes Gaussian
 
 ## Chi-Square Distribution
 
-Chi-square ($Χ^2$) distributions are a family of continuous probability distributions, they’re widely used in hypothesis tests.
+Chi-square $(Χ^2)$ distributions are a family of continuous probability distributions, they’re widely used in hypothesis tests.
 Very few real-world observations follow a chi-square distribution. The main purpose of chi-square distributions is hypothesis testing, not describing real-world distributions[^7].
 Chi-square distributions are useful for hypothesis testing because of their close relationship to the standard normal distribution. The standard normal distribution, which is a normal distribution with a mean of zero and a variance of one, is central to many important statistical tests and theories.
 Imagine taking a random sample of a standard normal distribution $Z$. If you squared all the values in the sample, you would have the chi-square distribution with k = 1.
