@@ -144,6 +144,7 @@ This application generates 10000 normal random variables, then computes Gaussian
 
 ![image](https://user-images.githubusercontent.com/74598295/203630989-a2233a28-4592-407d-9f69-fdfb2d9efa2a.png)
 
+Avaible on GitHub or [Drive](https://drive.google.com/file/d/1RGP8vQtkexVcJYDiEHGaAmJqfEWBqnWQ/view?usp=share_link)
 # Find in the web what are the distributions that you just simulated
 
 ## Chi-Square Distribution
