@@ -51,6 +51,27 @@ $$
 Then $Z_0$ and $Z_1$ are independent random variables with a standard normal distribution.
 The difference we notice between our method and the Box-Muller method is that we obtain by the following formula: $R = rU_1$ instead of $R = \sqrt {-2\ln U_1}$
 
-The polar form of this method is called the Marsaglia Polar Method: again we use two uniform random variables $U_1$ and $U_2$ generate two normal random variables $X$  and $Y$. Each time we want to sample a couple $(x, y)$  from the couple of normal random variables , we sample two values  respectively from  and  such that:
+The polar form of this method is called the Marsaglia Polar Method: again we use two uniform random variables $U_1$ and $U_2$ generate two normal random variables $X$  and $Y$. 
+The polar method works by sampling random points (u, v) in the square −1 < x < 1, −1 < y < 1 until
+
+$$
+0 < s = u^2 + v^2 < 1
+$$
+
+We now identify the value of $s$ with that of $U_1$ and ${\theta\over 2\pi}$ with that of $U_2$ in the basic form. 
+The values $\cos \theta = \cos{2\pi U_2}$ and $\sin \theta = \sin{2\pi U_2}$ in the basic form can be replaced with the ratios $\cos \theta = \frac{u}{R} = \frac{u}{\sqrt s}$ and $\sin \theta = \frac{v}{R} = \frac{v}{\sqrt s}$, respectively. 
+The advantage is that calculating the trigonometric functions directly can be avoided. This is helpful when trigonometric functions are more expensive to compute than the single division that replaces each one.
+
+Finally we obtain: 
+
+$$
+Z_0 = \sqrt {-2\ln U_1} {\cos 2\pi U_2} = \sqrt {-2\ln s}(\frac{u}{\sqrt s}) = u \sqrt{\frac{-2 \ln s}{s}}
+$$
+
+and 
+
+$$
+Z_1 = \sqrt {-2\ln U_1} {\sin 2\pi U_2} = \sqrt {-2\ln s}(\frac{v}{\sqrt s}) = v \sqrt{\frac{-2 \ln s}{s}}
+$$
 
 [^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
