@@ -115,7 +115,7 @@ The normal distribution is often referred to as $N(\mu, \sigma^2)$. Thus when a 
 
 ### De Moivre-Laplace Theorem
 
-The de Moivre–Laplace theorem states that the normal distribution may be used as an approximation to the binomial distribution under certain conditions. In particular, the theorem shows that the probability mass function of the random number of "successes" observed in a series of $n$ independent Bernoulli trials, each having probability $p$ of success (a binomial distribution with $n$ trials), converges to the probability density function of the normal distribution with mean $np$ and standard deviation ${\sqrt {np(1-p)}}$, as $n$ grows large, assuming $p$ is not 0 or 1.
+The de Moivre–Laplace theorem states that the normal distribution may be used as an approximation to the binomial distribution under certain conditions[^5]. In particular, the theorem shows that the probability mass function of the random number of "successes" observed in a series of $n$ independent Bernoulli trials, each having probability $p$ of success (a binomial distribution with $n$ trials), converges to the probability density function of the normal distribution with mean $np$ and standard deviation ${\sqrt {np(1-p)}}$, as $n$ grows large, assuming $p$ is not 0 or 1.
 
 This is one derivation of the particular Gaussian function used in the normal distribution.
 
