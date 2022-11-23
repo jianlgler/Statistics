@@ -109,6 +109,7 @@ f(x | \mu, \sigma^2) = {1 \over\sigma}\phi(\frac{x - \mu}{\sigma})
 $$
 
 The probability density must be scaled by $1/\sigma$  so that the integral is still 1.
+If $Z$ is a standard normal deviate, then $ X=\sigma Z+\mu$ will have a normal distribution with expected value $\mu$  and standard deviation $\sigma$. This is equivalent to saying that the "standard" normal distribution $Z$ can be scaled/stretched by a factor of $\sigma$ and shifted by $\mu$ to yield a different normal distribution, called $X$. Conversely, if $X$ is a normal deviate with parameters $\mu$ and $\sigma ^{2}$, then this $X$ distribution can be re-scaled and shifted via the formula $Z=\frac{(X-\mu )}{\sigma}$ to convert it to the "standard" normal distribution. This variate is also called the standardized form of $X$.
 
 [^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
 [^2]: Wikipedia, Marsaglia Polar Method: https://en.wikipedia.org/wiki/Marsaglia_polar_method
