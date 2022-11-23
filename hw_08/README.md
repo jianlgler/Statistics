@@ -157,6 +157,20 @@ Imagine taking a random sample of a standard normal distribution $Z$. If you squ
 
 ## Cauchy Distribution
 
+The Cauchy distribution is a family of continuous probably distributions which resemble the normal distribution family of curves. While the resemblance is there, it has a taller peak than a normal. And unlike the normal distribution, it’s fat tails decay much more slowly[^8].
+The Cauchy distribution $f(x;x_{0},\gamma )$ is the distribution of the x-intercept of a ray issuing from $(x_{0},\gamma )$ with a uniformly distributed angle. 
+**It is also the distribution of the ratio of two independent normally distributed random variables with mean zero.**
+
+The Cauchy distribution is often used in statistics as the canonical example of a "pathological" distribution since both its expected value and its variance are undefined. 
+
+The Cauchy distribution has the probability density function:
+
+$$
+f(x;x_{0},\gamma)=\frac{1}{\pi\gamma\left[1+\left(\frac{x-x_{0}}{\gamma}\right)^{2}\right]}={1\over\pi\gamma}\left[{\gamma^{2}\over(x-x_{0})^{2}+\gamma^{2}}\right]
+$$
+
+where $x_0$ is the location parameter, specifying the location of the peak of the distribution, and $\gamma$  is the scale parameter which specifies the half-width at half-maximum (HWHM), alternatively $2\gamma$  is full width at half maximum (FWHM). $\gamma$  is also equal to half the interquartile range and is sometimes called the probable error.
+
 ## T-Student Distribution
 
 ## Fisher-Snedecor Distribution
@@ -168,3 +182,4 @@ Imagine taking a random sample of a standard normal distribution $Z$. If you squ
 [^5]: Wikipedia, De Moivre-Laplace Theorem: https://en.wikipedia.org/wiki/De_Moivre%E2%80%93Laplace_theorem
 [^6]: Wikipedia, Gaussian Function: https://en.wikipedia.org/wiki/Gaussian_function
 [^7]: Scribbr, Chi-Square Distribution: https://www.scribbr.com/statistics/chi-square-distributions/
+[^8]: StatisticsHowTo, Cauchy Distribution: https://www.statisticshowto.com/cauchy-distribution-2/#:~:text=The%20Cauchy%20distribution%2C%20sometimes%20called,tails%20decay%20much%20more%20slowly.
