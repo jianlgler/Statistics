@@ -124,4 +124,7 @@ Finally, search on the web to understand what you have actually simulated (eg: h
 1. Consider X (radius), Y( angle) uniform r.vs. and use them to plot points on a chart. Determine the empirical distribution of the Cartesian coordinates
 2. Search for the methods to generate a NORMAL r.v. X , and simulate (Application)  the following distribution  : X, X², X/Y², X²/Y² , X/Y . And find in the web what are these distributions
 
+* Researches about theory relevant to applications
+1. Find in the web what are the distributions that you just simulated
+
 - [Theory Link](https://jianlgler.github.io/Statistics/hw_08/) 
