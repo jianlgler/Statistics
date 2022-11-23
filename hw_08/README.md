@@ -122,7 +122,7 @@ This is one derivation of the particular Gaussian function used in the normal di
 As $n$ grows large, for $k$ in the neighborhood of $np$ we can approximate:
 
 $$
-{n\choose k}\p^{k}q^{n-k}\simeq{\frac{1}{\sqrt{2\pi npq}}}\,e^{-{\frac{(k-np)^{2}}{2npq}}},\qquad p+q=1,\ p,q>0
+{n\choose k}p^{k}q^{n-k}\simeq{\frac{1}{\sqrt{2\pi npq}}}\,e^{-{\frac{(k-np)^{2}}{2npq}}},\qquad p+q=1,\ p,q>0
 $$
 
 [^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
