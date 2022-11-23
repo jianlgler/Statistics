@@ -53,7 +53,7 @@ $$
 Then $Z_0$ and $Z_1$ are independent random variables with a standard normal distribution.
 The difference we notice between our method and the Box-Muller method is that we obtain by the following formula: $R = rU_1$ instead of $R = \sqrt {-2\ln U_1}$
 
-The polar form of this method is called the Marsaglia Polar Method: again we use two uniform random variables $U_1$ and $U_2$ generate two normal random variables $X$  and $Y$. 
+The polar form of this method is called the Marsaglia Polar Method[^2]: again we use two uniform random variables $U_1$ and $U_2$ generate two normal random variables $X$  and $Y$. 
 The polar method works by sampling random points (u, v) in the square −1 < x < 1, −1 < y < 1 until
 
 $$
