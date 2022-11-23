@@ -181,9 +181,21 @@ $$
 f(x;x_{0},\gamma)=\frac{1}{\pi\gamma\left[1+\left(\frac{x-x_{0}}{\gamma}\right)^{2}\right]}={1\over\pi\gamma}\left[{\gamma^{2}\over(x-x_{0})^{2}+\gamma^{2}}\right]
 $$
 
-where $x_0$ is the location parameter, specifying the location of the peak of the distribution, and $\gamma$  is the scale parameter which specifies the half-width at half-maximum (HWHM), alternatively $2\gamma$  is full width at half maximum (FWHM). $\gamma$  is also equal to half the interquartile range and is sometimes called the probable error.
+where $x_0$ is the location parameter, specifying the location of the peak of the distribution, and $\gamma$  is the scale parameter which specifies the half-width at half-maximum (HWHM), alternatively $2\gamma$  is full width at half maximum (FWHM). $\gamma$  is also equal to half the interquartile range and is sometimes called the probable error[^9].
 
 ## T-Student Distribution
+
+In probability and statistics, Student's t-distribution (or simply the t-distribution) is any member of a family of continuous probability distributions that arise when estimating the mean of a normally distributed population in situations where the sample size is small and the population's standard deviation is unknown[^10].
+If we take a sample of $n$ observations from a normal distribution, then the t-distribution with $\nu=n-1$ degrees of freedom can be defined as the distribution of the location of the sample mean relative to the true mean, divided by the sample standard deviation, after multiplying by the standardizing term ${\sqrt {n}}$. In this way, the t-distribution can be used to construct a confidence interval for the true mean.
+
+The t-distribution is symmetric and bell-shaped, like the normal distribution. However, the t-distribution has heavier tails, meaning that it is more prone to producing values that fall far from its mean. This makes it useful for understanding the statistical behavior of certain types of ratios of random quantities, in which variation in the denominator is amplified and may produce outlying values when the denominator of the ratio falls close to zero.
+Let $ X_{1},\ldots ,X_{n}$ be independently and identically drawn from the distribution $X \sim N(\mu, \sigma^2)$, i.e. this is a sample of size $n$ from a normally distributed population with expected mean value $\mu$  and variance $\sigma ^{2}$ then the random variable
+
+$$
+ {\frac {{\bar {X}}-\mu }{\sigma /{\sqrt {n}}}}
+$$
+
+has a standard normal distribution (i.e. normal with expected mean 0 and variance 1)
 
 ## Fisher-Snedecor Distribution
 
@@ -195,3 +207,5 @@ where $x_0$ is the location parameter, specifying the location of the peak of th
 [^6]: Wikipedia, Gaussian Function: https://en.wikipedia.org/wiki/Gaussian_function
 [^7]: Scribbr, Chi-Square Distribution: https://www.scribbr.com/statistics/chi-square-distributions/
 [^8]: StatisticsHowTo, Cauchy Distribution: https://www.statisticshowto.com/cauchy-distribution-2/#:~:text=The%20Cauchy%20distribution%2C%20sometimes%20called,tails%20decay%20much%20more%20slowly.
+[^9]: Wikipedia, Cauchy Distribution: https://en.wikipedia.org/wiki/Cauchy_distribution
+[^10]: Wikipedia, Student's t-Distribution: [https://en.wikipedia.org/wiki/Cauchy_distribution](https://en.wikipedia.org/wiki/Student%27s_t-distribution)
