@@ -144,6 +144,18 @@ This application generates 10000 normal random variables, then computes Gaussian
 
 ![image](https://user-images.githubusercontent.com/74598295/203630989-a2233a28-4592-407d-9f69-fdfb2d9efa2a.png)
 
+# Find in the web what are the distributions that you just simulated
+
+## Chi-Square Distribution
+
+Chi-square ($Χ^2$) distributions are a family of continuous probability distributions, they’re widely used in hypothesis tests.
+Very few real-world observations follow a chi-square distribution. The main purpose of chi-square distributions is hypothesis testing, not describing real-world distributions[^7].
+Chi-square distributions are useful for hypothesis testing because of their close relationship to the standard normal distribution. The standard normal distribution, which is a normal distribution with a mean of zero and a variance of one, is central to many important statistical tests and theories.
+Imagine taking a random sample of a standard normal distribution $Z$. If you squared all the values in the sample, you would have the chi-square distribution with k = 1.
+
+![image](https://user-images.githubusercontent.com/74598295/203633404-9acb2788-f7b0-450a-ab4a-c912eab2cd5d.png)
+
+## T-Student Distribution
 
 [^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
 [^2]: Wikipedia, Marsaglia Polar Method: https://en.wikipedia.org/wiki/Marsaglia_polar_method
@@ -151,3 +163,4 @@ This application generates 10000 normal random variables, then computes Gaussian
 [^4]: Wikipedia, Normal Distribution: https://en.wikipedia.org/wiki/Normal_distribution
 [^5]: Wikipedia, De Moivre-Laplace Theorem: https://en.wikipedia.org/wiki/De_Moivre%E2%80%93Laplace_theorem
 [^6]: Wikipedia, Gaussian Function: https://en.wikipedia.org/wiki/Gaussian_function
+[^7]: Scribbr, Chi-Square Distribution: https://www.scribbr.com/statistics/chi-square-distributions/
