@@ -138,6 +138,13 @@ $$
 for arbitrary real constants a, b and non-zero c.
 Gaussian functions are often used to represent the probability density function of a normally distributed random variable with expected value $μ = b$ and variance $σ^2 = c^2$. 
 
+# Second Application
+
+This application generates 10000 normal random variables, then computes Gaussian Distribution and  the distributions of the following random variables: $X, X^2, X/over Y^2, X^2/over Y^2 , X/Y$
+
+![image](https://user-images.githubusercontent.com/74598295/203630989-a2233a28-4592-407d-9f69-fdfb2d9efa2a.png)
+
+
 [^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
 [^2]: Wikipedia, Marsaglia Polar Method: https://en.wikipedia.org/wiki/Marsaglia_polar_method
 [^3]: Wikipedia, Central Limit Theorem: https://en.wikipedia.org/wiki/Central_limit_theorem
