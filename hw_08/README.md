@@ -140,7 +140,7 @@ Gaussian functions are often used to represent the probability density function 
 
 # Second Application
 
-This application generates 10000 normal random variables, then computes Gaussian Distribution and  the distributions of the following random variables: $X, X^2, X/over Y^2, X^2/over Y^2 , X/Y$
+This application generates 10000 normal random variables, then computes Gaussian Distribution and  the distributions of the following random variables: $X, X^2, X/Y^2, X^2/Y^2 , X/Y$
 
 ![image](https://user-images.githubusercontent.com/74598295/203630989-a2233a28-4592-407d-9f69-fdfb2d9efa2a.png)
 
