@@ -191,15 +191,11 @@ If we take a sample of $n$ observations from a normal distribution, then the t-d
 The t-distribution is symmetric and bell-shaped, like the normal distribution. However, the t-distribution has heavier tails, meaning that it is more prone to producing values that fall far from its mean. This makes it useful for understanding the statistical behavior of certain types of ratios of random quantities, in which variation in the denominator is amplified and may produce outlying values when the denominator of the ratio falls close to zero.
 Let $ X_{1},\ldots ,X_{n}$ be independently and identically drawn from the distribution $X \sim N(\mu, \sigma^2)$, i.e. this is a sample of size $n$ from a normally distributed population with expected mean value $\mu$  and variance $\sigma ^{2}$ then the random variable
 
-$$
-\frac {{\bar X} - \mu }{\sigma /{\sqrt {n}}}
-$$
+![image](https://user-images.githubusercontent.com/74598295/203639632-3fbea26d-b0a7-43ee-9de6-9769aab5e93a.png)
 
 has a standard normal distribution (i.e. normal with expected mean 0 and variance 1) and 
 
-$$
-\frac {{\bar X} - \mu }{S /{\sqrt {n}}}
-$$
+![image](https://user-images.githubusercontent.com/74598295/203639662-ea619b70-4503-4035-9f3b-5f1584c6265a.png)
 
 has a Student's t-distribution with $n-1$ degrees of freedom, where $S$ is a (Bessel-corrected) sample variance.
 
