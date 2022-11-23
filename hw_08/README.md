@@ -136,6 +136,7 @@ f(x) = ae^{-\frac{(x-b)^2}{2c^2}}
 $$
 
 for arbitrary real constants a, b and non-zero c.
+Gaussian functions are often used to represent the probability density function of a normally distributed random variable with expected value $μ = b$ and variance $σ^2 = c^2$. 
 
 [^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
 [^2]: Wikipedia, Marsaglia Polar Method: https://en.wikipedia.org/wiki/Marsaglia_polar_method
