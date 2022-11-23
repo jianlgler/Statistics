@@ -155,7 +155,11 @@ Imagine taking a random sample of a standard normal distribution $Z$. If you squ
 
 ![image](https://user-images.githubusercontent.com/74598295/203633404-9acb2788-f7b0-450a-ab4a-c912eab2cd5d.png)
 
+## Cauchy Distribution
+
 ## T-Student Distribution
+
+## Fisher-Snedecor Distribution
 
 [^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
 [^2]: Wikipedia, Marsaglia Polar Method: https://en.wikipedia.org/wiki/Marsaglia_polar_method
