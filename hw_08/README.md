@@ -127,8 +127,19 @@ $$
 
 in the sense that the ratio of the left-hand side to the right-hand side converges to 1 as $n → ∞$
 
+### Gaussian Functions
+
+In mathematics, a Gaussian function, often simply referred to as a Gaussian, is a function of the form
+
+$$
+f(x) = ae^(-\frac{(x-b)^2}{2c^2})
+$$
+
+for arbitrary real constants a, b and non-zero c.
+
 [^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
 [^2]: Wikipedia, Marsaglia Polar Method: https://en.wikipedia.org/wiki/Marsaglia_polar_method
 [^3]: Wikipedia, Central Limit Theorem: https://en.wikipedia.org/wiki/Central_limit_theorem
 [^4]: Wikipedia, Normal Distribution: https://en.wikipedia.org/wiki/Normal_distribution
 [^5]: Wikipedia, De Moivre-Laplace Theorem: https://en.wikipedia.org/wiki/De_Moivre%E2%80%93Laplace_theorem
+[^6]: Wikipedia, Gaussian Function: https://en.wikipedia.org/wiki/Gaussian_function
