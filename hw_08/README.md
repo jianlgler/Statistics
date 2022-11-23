@@ -85,7 +85,11 @@ $$
 f(x) = \frac{1}{\sigma\sqrt {2\pi}}e^{\frac{1}{2}(\frac{x - \mu}{\sigma})^2}
 $$
 
+The parameter $\mu$  is the mean or expectation of the distribution, while the parameter \sigma is its standard deviation. The variance of the distribution is $\sigma ^{2}$. A random variable with a Gaussian distribution is said to be normally distributed, and is called a normal deviate.
+
+Normal distributions are important in statistics and are often used in the natural and social sciences to represent real-valued random variables whose distributions are not known. Their importance is partly due to the central limit theorem[^4]. It states that, under some conditions, the average of many samples (observations) of a random variable with finite mean and variance is itself a random variable—whose distribution converges to a normal distribution as the number of samples increases[^4]. Therefore, physical quantities that are expected to be the sum of many independent processes, such as measurement errors, often have distributions that are nearly normal.
 
 [^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
 [^2]: Wikipedia, Marsaglia Polar Method: https://en.wikipedia.org/wiki/Marsaglia_polar_method
 [^3]: Wikipedia, Normal Distribution: https://en.wikipedia.org/wiki/Normal_distribution
+[^4]: Wikipedia, Central Limit Theorem: https://en.wikipedia.org/wiki/Central_limit_theorem
