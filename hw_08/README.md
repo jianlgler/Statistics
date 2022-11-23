@@ -21,6 +21,8 @@ Here's an application that generate random polar coordinates, transpose them int
 
 Code's avaible on GitHub or [Drive](https://drive.google.com/file/d/1MffYJjZ6b9x9Gf9SZY43FZQRpekpmgNL/view?usp=share_link)
 
+## Box-Muller Trasform and Marsaglia Polar Method
+
 To change coordinates we used the following formulas:
 
 $$
