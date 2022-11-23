@@ -153,6 +153,18 @@ Very few real-world observations follow a chi-square distribution. The main purp
 Chi-square distributions are useful for hypothesis testing because of their close relationship to the standard normal distribution. The standard normal distribution, which is a normal distribution with a mean of zero and a variance of one, is central to many important statistical tests and theories.
 Imagine taking a random sample of a standard normal distribution $Z$. If you squared all the values in the sample, you would have the chi-square distribution with k = 1.
 
+If $Z1, \ldots, Zk$ are independent, standard normal random variables, then the sum of their squares,
+
+$$
+Q =\sum_{i=1}^{k}Z_{i}^{2}
+$$
+
+is distributed according to the chi-squared distribution with $k$ degrees of freedom. This is usually denoted as
+
+$$
+Q\sim\chi^{2}(k)\ \ {\text{or}}\ \ Q\sim\chi_{k}^{2}
+$$
+
 ![image](https://user-images.githubusercontent.com/74598295/203633404-9acb2788-f7b0-450a-ab4a-c912eab2cd5d.png)
 
 ## Cauchy Distribution
