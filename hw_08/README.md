@@ -192,13 +192,13 @@ The t-distribution is symmetric and bell-shaped, like the normal distribution. H
 Let $ X_{1},\ldots ,X_{n}$ be independently and identically drawn from the distribution $X \sim N(\mu, \sigma^2)$, i.e. this is a sample of size $n$ from a normally distributed population with expected mean value $\mu$  and variance $\sigma ^{2}$ then the random variable
 
 $$
- {\frac {{\bar {X}}-\mu }{\sigma /{\sqrt {n}}}}
+\frac {{\bar X} - \mu }{\sigma /{\sqrt {n}}}
 $$
 
 has a standard normal distribution (i.e. normal with expected mean 0 and variance 1) and 
 
 $$
-{\frac {{\bar {X}}-\mu }{S /{\sqrt {n}}}}
+\frac {{\bar X} - \mu }{S /{\sqrt {n}}}
 $$
 
 has a Student's t-distribution with $n-1$ degrees of freedom, where $S$ is a (Bessel-corrected) sample variance.
