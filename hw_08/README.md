@@ -77,3 +77,4 @@ Z_1 = \sqrt {-2\ln U_1} {\sin 2\pi U_2} = \sqrt {-2\ln s}(\frac{v}{\sqrt s}) = v
 $$
 
 [^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
+[^2]: Wikipedia, Marsaglia Polar Method: https://en.wikipedia.org/wiki/Marsaglia_polar_method
