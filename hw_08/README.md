@@ -205,6 +205,16 @@ has a Student's t-distribution with $n-1$ degrees of freedom, where $S$ is a (Be
 
 ## Fisher-Snedecor Distribution
 
+In probability theory, Fisher-Snedecor Distribution is a continuous distribution that **regulates the ratio between two Chi-square random variables**.
+
+The F-distribution with d1 and d2 degrees of freedom is the distribution of
+
+$$ 
+X={\frac {S_{1}/d_{1}}{S_{2}/d_{2}}}
+$$
+
+where $S_{1}$ and $S_{2}$are independent random variables with chi-square distributions with respective degrees of freedom $ d_{1}$ and $d_{2}$[^11].
+
 [^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
 [^2]: Wikipedia, Marsaglia Polar Method: https://en.wikipedia.org/wiki/Marsaglia_polar_method
 [^3]: Wikipedia, Central Limit Theorem: https://en.wikipedia.org/wiki/Central_limit_theorem
@@ -215,3 +225,4 @@ has a Student's t-distribution with $n-1$ degrees of freedom, where $S$ is a (Be
 [^8]: StatisticsHowTo, Cauchy Distribution: https://www.statisticshowto.com/cauchy-distribution-2/#:~:text=The%20Cauchy%20distribution%2C%20sometimes%20called,tails%20decay%20much%20more%20slowly.
 [^9]: Wikipedia, Cauchy Distribution: https://en.wikipedia.org/wiki/Cauchy_distribution
 [^10]: Wikipedia, Student's t-Distribution: [https://en.wikipedia.org/wiki/Cauchy_distribution](https://en.wikipedia.org/wiki/Student%27s_t-distribution)
+[^11]: Wikipedia, F-distribution: https://en.wikipedia.org/wiki/F-distribution
