@@ -98,6 +98,18 @@ $$
 \phi(z) = \frac{e^{-z^2\over 2}}{\sqrt{2\pi}}
 $$
 
+The variable $z$ has a mean of 0 and a variance and standard deviation of 1. The density $\phi (z)$ has its peak $1/{\sqrt {2\pi }}$ at $z=0$ and inflection points at $z = +1$ and $z = -1$.
+
+### Generalization and Notation
+
+Every normal distribution is a version of the standard normal distribution, whose domain has been stretched by a factor $\sigma$ (the standard deviation) and then translated by $\mu$ (the mean value):
+
+$$
+f(x | \mu, \sigma^2) = {1 \over\sigma}\phi(\frac{x - \mu}{\sigma})
+$$
+
+The probability density must be scaled by $1/\sigma$  so that the integral is still 1.
+
 [^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
 [^2]: Wikipedia, Marsaglia Polar Method: https://en.wikipedia.org/wiki/Marsaglia_polar_method
 [^3]: Wikipedia, Central Limit Theorem: https://en.wikipedia.org/wiki/Central_limit_theorem
