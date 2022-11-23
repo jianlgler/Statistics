@@ -195,7 +195,13 @@ $$
  {\frac {{\bar {X}}-\mu }{\sigma /{\sqrt {n}}}}
 $$
 
-has a standard normal distribution (i.e. normal with expected mean 0 and variance 1)
+has a standard normal distribution (i.e. normal with expected mean 0 and variance 1) and 
+
+$$
+{\frac {{\bar {X}}-\mu }{S /{\sqrt {n}}}}
+$$
+
+has a Student's t-distribution with $n-1$ degrees of freedom, where $S$ is a (Bessel-corrected) sample variance.
 
 ## Fisher-Snedecor Distribution
 
