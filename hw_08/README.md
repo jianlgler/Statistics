@@ -132,7 +132,7 @@ in the sense that the ratio of the left-hand side to the right-hand side converg
 In mathematics, a Gaussian function, often simply referred to as a Gaussian, is a function of the form
 
 $$
-f(x) = ae^(-\frac{(x-b)^2}{2c^2})
+f(x) = ae^{-\frac{(x-b)^2}{2c^2}}
 $$
 
 for arbitrary real constants a, b and non-zero c.
