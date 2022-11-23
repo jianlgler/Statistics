@@ -113,8 +113,12 @@ If $Z$ is a standard normal deviate, then $ X=\sigma Z+\mu$ will have a normal d
 
 The normal distribution is often referred to as $N(\mu, \sigma^2)$. Thus when a random variable $X$ is normally distributed with mean $\mu$ and standard deviation $\sigma$, one may write $X \sim N(\mu, \sigma^2)$
 
+### De Moivre-Laplace Theorem
+
+The de Moivre–Laplace theorem states that the normal distribution may be used as an approximation to the binomial distribution under certain conditions. In particular, the theorem shows that the probability mass function of the random number of "successes" observed in a series of $n$ independent Bernoulli trials, each having probability $p$ of success (a binomial distribution with $n$ trials), converges to the probability density function of the normal distribution with mean $np$ and standard deviation ${\sqrt {np(1-p)}}$, as $n$ grows large, assuming $p$ is not 0 or 1.
+
 [^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
 [^2]: Wikipedia, Marsaglia Polar Method: https://en.wikipedia.org/wiki/Marsaglia_polar_method
 [^3]: Wikipedia, Central Limit Theorem: https://en.wikipedia.org/wiki/Central_limit_theorem
 [^4]: Wikipedia, Normal Distribution: https://en.wikipedia.org/wiki/Normal_distribution
-
+[^5]: Wikipedia, De Moivre-Laplace Theorem: https://en.wikipedia.org/wiki/De_Moivre%E2%80%93Laplace_theorem
