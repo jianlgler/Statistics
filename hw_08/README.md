@@ -117,6 +117,14 @@ The normal distribution is often referred to as $N(\mu, \sigma^2)$. Thus when a 
 
 The de Moivre–Laplace theorem states that the normal distribution may be used as an approximation to the binomial distribution under certain conditions. In particular, the theorem shows that the probability mass function of the random number of "successes" observed in a series of $n$ independent Bernoulli trials, each having probability $p$ of success (a binomial distribution with $n$ trials), converges to the probability density function of the normal distribution with mean $np$ and standard deviation ${\sqrt {np(1-p)}}$, as $n$ grows large, assuming $p$ is not 0 or 1.
 
+This is one derivation of the particular Gaussian function used in the normal distribution.
+
+As $n$ grows large, for $k$ in the neighborhood of $np$ we can approximate:
+
+$$
+{n\choose k}\,p^{k}q^{n-k}\simeq{\frac{1}{\sqrt{2\pi npq}}}\,e^{-{\frac{(k-np)^{2}}{2npq}}},\qquad p+q=1,\ p,q>0
+$$
+
 [^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
 [^2]: Wikipedia, Marsaglia Polar Method: https://en.wikipedia.org/wiki/Marsaglia_polar_method
 [^3]: Wikipedia, Central Limit Theorem: https://en.wikipedia.org/wiki/Central_limit_theorem
