@@ -77,7 +77,15 @@ Here's an application that generate random polar coordinates, transpose them int
 
 Code's avaible on GitHub or [Drive](https://drive.google.com/file/d/1MffYJjZ6b9x9Gf9SZY43FZQRpekpmgNL/view?usp=share_link)
 
+# Derivates of the Normal Distribution
+
+In statistics, a normal distribution or Gaussian distribution is a type of continuous probability distribution for a real-valued random variable. The general form of its probability density function is:
+
+$$
+f(x) = \frac{1}{\sigma\sqrt 2\pi}e^{\frac{1}{2}(\frac{x - \mu}{\sigma})^2}
+$$
 
 
 [^1]: Wikipedia, Box-Muller Transform: https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform
 [^2]: Wikipedia, Marsaglia Polar Method: https://en.wikipedia.org/wiki/Marsaglia_polar_method
+[^3]: Wikipedia, Normal Distribution: https://en.wikipedia.org/wiki/Normal_distribution
