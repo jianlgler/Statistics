@@ -128,3 +128,6 @@ Finally, search on the web to understand what you have actually simulated (eg: h
 1. Find in the web what are the distributions that you just simulated
 
 - [Theory Link](https://jianlgler.github.io/Statistics/hw_08/) 
+
+
+## [THESIS ABOUT STOCHASTIC PROCESSES] (https://drive.google.com/file/d/173cTeXWCxr2luJXQoUfem-Zg95TdCu-3/view?usp=share_link)
